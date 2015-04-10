@@ -1,0 +1,25 @@
+
+GNO:    tawas.a
+CONT:   tawašot.a
+INCH:   tawak.a
+COMP:   tawar.a
+
+PST:    tawas.ezi
+FUT:    tawas.ari
+
+
+sayu tawašotezi: "it was giving"
+sayu tawakari: "it will start to give"
+sayu tawasezi: "it gave"
+
+
+
+NOM:    -ta
+TOP:    -yu
+DAT:    -san (*-som)
+ACC:    (none)
+
+Miniyu i kirisan saka tawasaku kerisa. Keyōsaru sakayu saroharo merisa; Pennanširi yā ondi kuusa.
+I-TOP [ you-DAT fish give-GNO-] like. country-GEN fish-TOP very good; Pennan-LOC EMPH people eat.
+[miniju i kiɾisan saka tawasaku keɾiʃota]
+"I like giving you fish."

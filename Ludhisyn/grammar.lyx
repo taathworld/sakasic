@@ -1,0 +1,8071 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+
+\renewcommand{\arraystretch}{1.33}
+\usepackage{microtype}
+%\usepackage{mathspec}
+\usepackage{forest}
+\usepackage{paracol}
+\usepackage{xeCJK}
+
+%\usepackage{unicode-math}
+
+%\usepackage{selnolig}
+%\nolig{Th}{T|h} % suppress "Th" ligature globally
+
+\setmainfont[
+BoldFont = {Linux Libertine O Semibold},
+           Ligatures = {TeX,Common}, Numbers=Lining]{Linux Libertine O}
+
+%\setmainfont[
+%BoldFont = {Gentium Basic Bold},
+%Ligatures={TeX, Common}]{Gentium Plus}
+
+\setsansfont{Linux Biolinum O}
+
+\setCJKmainfont[Scale=0.95]{UmePlus P Gothic}
+
+\setmonofont{Linux Libertine Display O}
+
+\usepackage{chngcntr}
+\usepackage{remreset}
+\counterwithin*{chapter}{part}
+
+\chapterstyle{ell}
+\let\oldmarginpar\marginpar
+\renewcommand\marginpar[1]
+{\-\oldmarginpar[\raggedleft\sffamily\scriptsize #1]%
+{\raggedright\sffamily\scriptsize #1}}
+\usepackage{textcomp,    % for \textlangle and \textrangle macros
+            xspace}
+\newcommand\la{\textlangle\xspace}  % set up short-form macros
+\newcommand\ra{\textrangle\xspace}
+
+\renewcommand{\theequation}{\arabic{equation}}
+
+
+%\let\eachwordone=\rm
+\let\eachwordtwo=\small
+\let\eachwordthree=\small
+
+
+\aliaspagestyle{chapter}{empty}
+\end_preamble
+\options titlepage
+\use_default_options true
+\begin_modules
+fixltx2e
+algorithm2e
+linguistics
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 1
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 4cm
+\bottommargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begingroup 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedleft 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{
+\backslash
+baselineskip} 
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+Large Athrengif Éldavisun}
+\backslash
+
+\backslash
+[0.267
+\backslash
+textheight] 
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+bfseries {
+\backslash
+large palerindin an ládingáladaef an}}
+\backslash
+
+\backslash
+[
+\backslash
+baselineskip] 
+\end_layout
+
+\begin_layout Plain Layout
+
+{{
+\backslash
+fontsize{50pt}{2em}
+\backslash
+selectfont {
+\backslash
+tt L U D H I S Y N}}}
+\backslash
+
+\backslash
+[
+\backslash
+baselineskip] 
+\end_layout
+
+\begin_layout Plain Layout
+
+{{
+\backslash
+it Ludhisyn Reference Grammar}}
+\backslash
+par 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vfill 
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+Large 
+\backslash
+today}
+\backslash
+par
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{3
+\backslash
+baselineskip} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Phonology and orthography
+\end_layout
+
+\begin_layout Standard
+Compared to other Sakasic languages, Ludhisyn has a very distinctive phonology.
+ 
+\end_layout
+
+\begin_layout Section
+Consonants
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="6">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Labial
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Alveolar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Dental
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Velar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Glottal
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Stops
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/p/ /b/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/t/ /d/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/k/ /ɡ/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Fricatives
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/f/ /v/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/s/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/θ/ /ð/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/x/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/h/
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Approximants
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/w/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/l/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Nasals
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/m/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/n/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Trills
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/r/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Before velar stops, /n/ is realized as [ŋ].
+\end_layout
+
+\begin_layout Section
+Vowels
+\end_layout
+
+\begin_layout Subsection
+Monophthongs
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Front
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Central
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Back
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+High
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/i/ /y/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/u/
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Mid
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/ɛ/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/ɔ/
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Low
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/a/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Each vowel also as a long version, denoted with an acute accent.
+ The vowels /i/ and /e/ have rare ultra-long versions in addition, denoted
+ with a circumflex; however, these ultra-long versions are  
+\begin_inset CommandInset label
+LatexCommand label
+name "long-vowels-merging"
+
+\end_inset
+
+in the process of merging into the long vowels in a small amount of speakers.
+ 
+\series bold
+nîth
+\series default
+ 
+\emph on
+shadow
+\emph default
+ and 
+\series bold
+níth
+\series default
+ 
+\emph on
+bird 
+\emph default
+sound the same to these speakers.
+\end_layout
+
+\begin_layout Subsection
+Diphthongs
+\end_layout
+
+\begin_layout Standard
+The only kind of diphthong involves a palatal offglide.
+\end_layout
+
+\begin_layout Section
+Allophony
+\end_layout
+
+\begin_layout Subsection
+Rhotic devoicing
+\end_layout
+
+\begin_layout Standard
+In syllable codas, an /r/ is realized as [r̥].
+ For example, 
+\series bold
+ar gif
+\series default
+ 
+\emph on
+a person
+\emph default
+ is pronounced [ar̥ ɡ̥if], and 
+\series bold
+irdis
+\series default
+ 
+\emph on
+star
+\emph default
+ is pronounced [ˈir̥d̥is].
+ Note that the devoicing also spreads to adjacent consonants.
+ This does not actually cause ambiguity, since due to historical reasons
+ combinations like 
+\series bold
+-rt-
+\series default
+, 
+\series bold
+-rp-
+\series default
+, etc never occur, instead changing to 
+\series bold
+-rd-
+\series default
+, 
+\series bold
+-rm-
+\series default
+, etc.
+\end_layout
+
+\begin_layout Subsection
+Vowel nasalization before liquids
+\end_layout
+
+\begin_layout Standard
+The sequences /Vnl/ and /Vnr/ are realized as [Ṽll] and [Ṽr].
+ For example, 
+\series bold
+kérianlin
+\series default
+ is pronounced [ˈkɛːriãlˌlin].
+\end_layout
+
+\begin_layout Subsection
+Aspiration
+\end_layout
+
+\begin_layout Standard
+Stops are weakly aspirated in all environments except word-finally.
+ 
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Prosody
+\end_layout
+
+\begin_layout Standard
+Unlike most other Sakasic languages, Ludhisyn has a somewhat complex prosody
+ system.
+ 
+\end_layout
+
+\begin_layout Subsection
+Primary stress
+\end_layout
+
+\begin_layout Standard
+Primary stress falls on the first 
+\emph on
+heavy
+\emph default
+ syllable.
+ A syllable is heavy iff it ends in a consonant or has a long vowel.
+ If there are no heavy syllables, primary stress falls on the first syllable
+ of the word.
+ 
+\end_layout
+
+\begin_layout Subsection
+Secondary stress
+\end_layout
+
+\begin_layout Standard
+In compound words, the first syllable of each constituent gets secondary
+ stress.
+ In all words, if the primary stress does not fall upon the first syllable,
+ the first syllable gets secondary stress.
+ For example, 
+\series bold
+pelerindin
+\series default
+ would be pronounced [ˌpɛlɛˈrindin].
+ 
+\end_layout
+
+\begin_layout Section
+Orthography
+\end_layout
+
+\begin_layout Standard
+The orthography matches the phonemic IPA transcription used above, except
+ for the following:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Grapheme
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Phoneme
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<e>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/ɛ/
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<o>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/ɔ/
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<ch>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/x/
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<th>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/θ/
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<dh>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/ð/
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Diphthongs are written <Vi>, as in 
+\series bold
+naich
+\series default
+ /naɪx/
+\end_layout
+
+\begin_layout Chapter
+Noun morphology
+\end_layout
+
+\begin_layout Section
+Basic nouns
+\end_layout
+
+\begin_layout Standard
+Nouns are the core of most noun phrases.
+ All nouns end in consonants in their basic nominative form.
+\end_layout
+
+\begin_layout Standard
+Some examples of basic (non-compound) Ludhisyn nouns include 
+\series bold
+nách
+\series default
+ 
+\emph on
+soul
+\emph default
+, 
+\series bold
+silach
+\series default
+ 
+\emph on
+water
+\emph default
+, and 
+\series bold
+mith
+\series default
+ 
+\emph on
+sky
+\emph default
+.
+ As you can see, basic nouns are typically rather short, and quite a few
+ of them contain long vowels.
+\end_layout
+
+\begin_layout Section
+Derived nouns
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Derived-nouns"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ludhisyn uses derivational morphology and compounding to form a lot of nouns.
+ 
+\end_layout
+
+\begin_layout Subsection
+Compounding
+\end_layout
+
+\begin_layout Standard
+Compounding in Ludhisyn is completely productive.
+ The meaning of a compound 
+\begin_inset Formula $x_{1}x_{2}$
+\end_inset
+
+ is equivalent to 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $x_{2}$
+\end_inset
+
+ of 
+\begin_inset Formula $x_{1}$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+of
+\begin_inset Quotes erd
+\end_inset
+
+ here is rather vague; more precisely it takes exactly the senses of the
+ Ludhisyn genitive (see TODO).
+ Compounds are left-associative: 
+\series bold
+silaknágelin
+\series default
+ 
+\emph on
+water-soul-light
+\emph default
+ means 
+\begin_inset Quotes eld
+\end_inset
+
+light of the [soul of the water]
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+This doesn't mean that the meaning is entirely predictable, though.
+ Some compounds acquire shifted meanings through fixed usage or loan translation
+; such compounds, like 
+\series bold
+chrummíth
+\series default
+ 
+\emph on
+internal combustion engine
+\emph default
+ which literally means 
+\emph on
+car-soul
+\emph default
+,
+\emph on
+ 
+\emph default
+would be listed in the lexicon.
+\end_layout
+
+\begin_layout Standard
+A compound between two nouns can also have the meaning 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $x_{2}$
+\end_inset
+
+ that is an 
+\begin_inset Formula $x_{1}$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+; in this case 
+\begin_inset Formula $x_{1}$
+\end_inset
+
+ needs to have a suffix.
+ When 
+\begin_inset Formula $x_{1}$
+\end_inset
+
+ is a descriptive noun, or 
+\begin_inset Quotes eld
+\end_inset
+
+adjective
+\begin_inset Quotes erd
+\end_inset
+
+, like 
+\series bold
+pelen
+\series default
+ 
+\emph on
+large
+\emph default
+, then the final 
+\series bold
+-n
+\series default
+ is replaced with 
+\series bold
+-r
+\series default
+.
+ Otherwise, a suffix 
+\series bold
+-ar
+\series default
+ is added.
+ For example, we can say 
+\series bold
+pelerindin
+\series default
+ 
+\emph on
+largething-book
+\emph default
+, meaning 
+\emph on
+reference book
+\emph default
+, or 
+\series bold
+kérianargif
+\series default
+ 
+\emph on
+beloved-person
+\emph default
+, a polite circumlocution for 
+\emph on
+significant other
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection
+Derivational suffixes
+\end_layout
+
+\begin_layout Standard
+Ludhisyn has a rich array of derivation suffixes which derive nouns from
+ other word classes.
+ Interestingly, derivational suffixes on nouns often correspond both in
+ semantics and sound to nominal prepositions (see TODO); while the nominal
+ prepositions create derived meanings for entire noun phrases, the derivational
+ suffixes create 
+\emph on
+lexical
+\emph default
+ items from existing words.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row endhead="true">
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Ancestral suffix
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Preposition
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Suffix
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Meaning
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-ajaf
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+sé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-aef
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+all [N]
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-ahpïs
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+sábi
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-ábis
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+set of [N]
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-ul
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+an
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-yn
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+thing of [N]
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-jn
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(see TODO)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+one who [V]
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-han
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-an
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+one who is [V]ed
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Noun lenition
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Noun-lenition"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Whenever a noun is connected to other morphemes, either when declining for
+ case or forming compounds, it needs to be lenited into a proper form.
+\end_layout
+
+\begin_layout Subsection
+Regular lenition
+\end_layout
+
+\begin_layout Standard
+The vast majority of nouns follow regular rules when undergoing mutation.
+\end_layout
+
+\begin_layout Subsubsection
+Consonant mutation
+\end_layout
+
+\begin_layout Standard
+Consonants at the beginning and end of words follow certain mutation patterns.
+ Each consonant has a 
+\emph on
+base form
+\emph default
+, a 
+\emph on
+soft-mutated form
+\emph default
+, and a 
+\emph on
+hard-mutated form
+\emph default
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+The 
+\emph on
+base form
+\emph default
+ appears when the consonant is in the beginning of a word, or is followed
+ by a consonant other than a stop.
+\end_layout
+
+\begin_layout Itemize
+The 
+\emph on
+soft-mutated form
+\emph default
+ appears when the consonant occurs intervocalically, or between a vowel
+ and a sonorant.
+\end_layout
+
+\begin_layout Itemize
+The 
+\emph on
+hard-mutated form
+\emph default
+ appears when the consonant is at the end of a word, or is followed by a
+ stop.
+\end_layout
+
+\begin_layout Standard
+Here is a complete list of the correspondences between forms; sounds that
+ do not change are not listed.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Interesting
+\begin_inset Quotes erd
+\end_inset
+
+ correspondences will be underlined:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="11" columns="4">
+<features rotate="0" islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row endhead="true">
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Ancestral sound
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Base
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Soft-mutated
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Hard-mutated
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+*k
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+k
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ch
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+*p
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+p
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+f
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+*t
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+d
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+th
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+*g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ch
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+*b
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+v
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+f
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+*d
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+d
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+dh
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+*v
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+v
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+m
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+*z
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+dh
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+dh
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+*h
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ch
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+*l
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+l
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+l
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+n
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that a some sounds have an empty 
+\begin_inset Quotes eld
+\end_inset
+
+hard-mutated
+\begin_inset Quotes erd
+\end_inset
+
+ column.
+ This is because ancestral phonotactics prohibit those sounds from ending
+ a noun, so although one can posit hard-mutation for them, such information
+ would be useless in actual Ludhisyn usage.
+\end_layout
+
+\begin_layout Standard
+Note that from the base sound, you can always predict the mutated sounds.
+ This means that when compounding with other things on the left, or attaching
+ prefixes, we can be quite sure how to change our word.
+ However, if we compound things on the right, or attach suffixes, we cannot
+ really predict things from the uninflected form, which would be hard-mutated.
+ For example, given 
+\series bold
+míth
+\series default
+, should the dative (formed with a suffix 
+\series bold
+-om
+\series default
+) be 
+\series bold
+míthom
+\series default
+ or 
+\series bold
+mídom
+\series default
+? We cannot know.
+\end_layout
+
+\begin_layout Standard
+In this case, we have to fall-back on rote-memorization.
+ Traditionally, a Ludhisyn speaker would memorize the uninflected form of
+ a noun, and also the 
+\emph on
+diminutive form
+\emph default
+ (see TODO), which is a suffix in 
+\series bold
+-nis
+\series default
+.
+ So one would memorize 
+\series bold
+míth
+\series default
+, 
+\series bold
+mítnis
+\series default
+, so the base sound must be 
+\series bold
+t
+\series default
+.
+ Now we know that the soft-mutated form must be 
+\series bold
+d
+\series default
+, and the dative must be 
+\series bold
+mídom
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Consonant mutation is only part of the story in Ludhisyn lenition; to explain
+ most words vowel mutation is also needed.
+\end_layout
+
+\begin_layout Subsubsection
+Vowel mutation
+\end_layout
+
+\begin_layout Standard
+Vowels have mutation rules too, but they are much less complex than the
+ consonant mutation rules.
+ They mostly concern how vowels behave in the first syllable, in all other
+ syllables, and in closed syllables (i.e.
+ syllables which end in a consonant).
+ There are two main rules:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+y
+\series default
+ in the original form becomes 
+\series bold
+u
+\series default
+ when its syllable used to be the last syllable, but now is not.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+e
+\series default
+ in the original form becomes 
+\series bold
+a
+\series default
+ when its syllable used to be closed, but now is open.
+ 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+This is an analogical rule.
+ Many nouns originally ending in 
+\series bold
+-aC
+\series default
+ changed to end in 
+\series bold
+-eC
+\series default
+ by raising of 
+\series bold
+a
+\series default
+, but when adding suffixes starting in a vowel, 
+\series bold
+-aCV
+\series default
+ was preserved.
+ The direction of change was mentally inverted, and now any 
+\series bold
+e
+\series default
+, regardless of etymology, follows this pattern.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So for example, if we compound 
+\series bold
+mareth
+\series default
+ 
+\emph on
+jewel
+\emph default
+ with 
+\series bold
+elin
+\series default
+ 
+\emph on
+light
+\emph default
+, we would get 
+\series bold
+maradelin
+\series default
+ 
+\emph on
+light of a jewel
+\emph default
+ (the 
+\series bold
+d
+\series default
+ coming from vowel mutation).
+\end_layout
+
+\begin_layout Subsection
+Irregular lenition
+\end_layout
+
+\begin_layout Subsubsection
+Irregular vowel mutation
+\end_layout
+
+\begin_layout Standard
+In general, ultra-long vowels behave quite unpredictably.
+ Every word that has them has different irregularities; fortunately these
+ words are very rare.
+ One example is 
+\series bold
+nîth
+\series default
+ 
+\emph on
+shadow
+\emph default
+, whose vowel mutates to 
+\series bold
+oi
+\series default
+ when the word occurs in non-initial position in a compound: 
+\series bold
+kif
+\series default
+ 
+\emph on
+person
+\series bold
+ 
+\series default
+\emph default
++ 
+\series bold
+nîth
+\series default
+ yields 
+\series bold
+kipnoith
+\series default
+ 
+\emph on
+shadow of a person
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Young speakers who pronounce the ultra-long vowels distinctly (see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "long-vowels-merging"
+
+\end_inset
+
+) are beginning to lenit these words regularly by analogy to words without
+ ultra-long vowels, but such behavior is still considered ungrammatical
+ by most speakers.
+\end_layout
+
+\begin_layout Subsubsection
+Syncope
+\end_layout
+
+\begin_layout Standard
+Highly irregular syncope occurs with a tiny class of words, characterized
+ by starting with a consonant cluster.
+ The most famous of them is the word 
+\series bold
+chryn
+\series default
+ 
+\emph on
+car
+\emph default
+; when followed by elements starting with a vowel, it becomes 
+\series bold
+karn-
+\series default
+; for example the genitive 
+\emph on
+car's
+\emph default
+ appears as 
+\series bold
+karnyn
+\series default
+.
+ In a similar pattern, 
+\series bold
+klyth
+\series default
+ 
+\emph on
+dog
+\emph default
+ becomes 
+\series bold
+kald-
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Outside of fossilized jargon like 
+\series bold
+karnelin
+\series default
+ 
+\emph on
+car-light
+\emph default
+, productive usage of this class of irregular words is also regularizing
+ by analogy.
+ In the urban streets of Aglabech
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Capital of Ludhiskaef.
+ 
+\series bold
+agla-
+\series default
+ is a verb meaning 
+\emph on
+to be sufficient
+\emph default
+; it has no cognates in other Sakasic languages and presumably does not
+ descend from Sakasul; it may be a loan of Keledna 
+\series bold
+qagla
+\series default
+, meaning 
+\emph on
+happy
+\emph default
+.
+\end_layout
+
+\end_inset
+
+, one easily hears expressions like 
+\series bold
+chrunógyth
+\series default
+ 
+\emph on
+car fire
+\emph default
+ instead of the expected 
+\series bold
+karnógyth
+\series default
+, and 
+\series bold
+kludelin
+\series default
+ 
+\emph on
+dog light
+\emph default
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+A fad in Aglabech is to breed dogs with bright bioluminescent spots in a
+ triangular pattern on the head.
+ These spots are called 
+\series bold
+kludelin
+\series default
+ or 
+\series bold
+kaldelin
+\series default
+.
+\end_layout
+
+\end_inset
+
+ instead of expected 
+\series bold
+kaldelin
+\series default
+.
+ Unlike the situation with irregular vowel mutation, this change is accepted
+ as grammatical, if informal, in the standard spoken language.
+ Formal speech always uses forms like 
+\series bold
+karnógyth
+\series default
+ and 
+\series bold
+kaldelin
+\series default
+.
+\end_layout
+
+\begin_layout Chapter
+Noun phrases
+\end_layout
+
+\begin_layout Standard
+A basic noun phrase in Ludhisyn consists of:
+\end_layout
+
+\begin_layout Itemize
+An optional 
+\emph on
+determiner
+\end_layout
+
+\begin_layout Itemize
+A mandatory 
+\emph on
+nominal head
+\end_layout
+
+\begin_layout Itemize
+An optional 
+\emph on
+appositional noun phrase
+\end_layout
+
+\begin_layout Standard
+in order.
+ We will examine these structures one by one, and then we would look at
+ 
+\emph on
+coordination
+\emph default
+, which builds more complicated noun phrases.
+\end_layout
+
+\begin_layout Section
+Determiners
+\end_layout
+
+\begin_layout Standard
+Determiners are small particles placed in the beginning of a noun phrase,
+ just before the nominal head.
+ Each noun phrase has at most one determiner.
+ The determiners are:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+ter
+\series default
+: This determiner refers to a previously discussed thing, like English 
+\begin_inset Quotes eld
+\end_inset
+
+the
+\begin_inset Quotes erd
+\end_inset
+
+, except it refers specifically to something 
+\begin_inset Quotes eld
+\end_inset
+
+close
+\begin_inset Quotes erd
+\end_inset
+
+ in the discussion.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+I losadan i limosadanig, gith ná limosagant ter kach.
+\end_layout
+
+\begin_layout Plain Layout
+
+and {I looked} and {I looked} but not {I found} {} place
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt I looked and looked, but I never found that place.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+Mai likosagant ter kohos Aglabegun?
+\end_layout
+
+\begin_layout Plain Layout
+
+yes/no {you found} {} king {of Aglabech}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Did you find that king of Aglabech?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that 
+\series bold
+ter
+\series default
+ is usually used only in opposition to 
+\series bold
+kar
+\series default
+, or in conversation after talking about other things (but not for long
+ enough to start using 
+\series bold
+kar
+\series default
+).
+ It does not directly translate English 
+\begin_inset Quotes eld
+\end_inset
+
+the
+\begin_inset Quotes erd
+\end_inset
+
+; in fact in most cases English 
+\begin_inset Quotes eld
+\end_inset
+
+the
+\begin_inset Quotes erd
+\end_inset
+
+ translates to the lack of a determiner in Ludhisyn.
+ Ludhisyn does not obligatorily distinguish definiteness.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+kar
+\series default
+: This determiner refers to a previously discussed thing, but something
+ 
+\begin_inset Quotes eld
+\end_inset
+
+far
+\begin_inset Quotes erd
+\end_inset
+
+ in the discussion.
+ The object may not have been discussed in the current conversation, but
+ must mentally be part of the 
+\begin_inset Quotes eld
+\end_inset
+
+background
+\begin_inset Quotes erd
+\end_inset
+
+ of the universe of discourse.
+\end_layout
+
+\begin_deeper
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+kar kach inith min on kin kimérgant.
+\end_layout
+
+\begin_layout Plain Layout
+
+{} place where I {} you {I fall in love}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt that place where I first fell in love with you
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+kar chryn
+\end_layout
+
+\begin_layout Plain Layout
+
+{} car
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt that car we've been talking about (and not this one we're currently
+ talking about)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+tehel
+\series default
+: This determiner is similar to English 
+\begin_inset Quotes eld
+\end_inset
+
+this
+\begin_inset Quotes erd
+\end_inset
+
+, but can only refer to spatial closeness.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+Ná kivumult tehel beigel.
+\end_layout
+
+\begin_layout Plain Layout
+
+not {I will eat} {} bagel
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt I will never eat this bagel.
+ (pointing at bagel in hand)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+kahel
+\series default
+: This determiner is similar to English 
+\begin_inset Quotes eld
+\end_inset
+
+that
+\begin_inset Quotes erd
+\end_inset
+
+, but can only refer to spatial distance.
+\end_layout
+
+\begin_deeper
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+Ná kivumult tehel beigol, gith kivumult kahel beigol.
+\end_layout
+
+\begin_layout Plain Layout
+
+not {I will eat} {} bagel but {I will eat} {} bagel.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt I will never eat this bagel, but I will eat that bagel.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Nominal heads
+\end_layout
+
+\begin_layout Standard
+The nominal head forms the core of a Ludhisyn noun phrase.
+\end_layout
+
+\begin_layout Subsection
+Bare noun
+\end_layout
+
+\begin_layout Standard
+The nominal head can simply be a noun.
+ The noun can be compound or basic:
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+kach midun vagyn
+\end_layout
+
+\begin_layout Plain Layout
+
+place {of water} {of soil}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt place of water and of soil
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+tehel mitchrumelinradheth
+\end_layout
+
+\begin_layout Plain Layout
+
+that {water-car-light-power}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt That power source of a light of a boat
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Derived noun
+\end_layout
+
+\begin_layout Standard
+The head can also be a derived noun (see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Derived-nouns"
+
+\end_inset
+
+): 
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+kérian Midiedun
+\end_layout
+
+\begin_layout Plain Layout
+
+beloved {of Midíth}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Midíth's beloved
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+kumuen Nipponun
+\end_layout
+
+\begin_layout Plain Layout
+
+eaten.thing {of Japan}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Japanese food
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+ter sahen kumuen kumuen
+\end_layout
+
+\begin_layout Plain Layout
+
+{} fish eater eatee
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt These fish that both eat and are food
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Embedded verb phrase
+\end_layout
+
+\begin_layout Standard
+verb phrases can be embedded in various ways as the head of a noun phrase,
+ forming embedded clauses.
+ In each case, we have a 
+\emph on
+embedder 
+\emph default
+and a verb phrase with 
+\emph on
+postponed verb
+\emph default
+.
+ That is, the verb phrase's verb is moved to the end of the phrase, much
+ like in German relative clauses.
+ (This is to maintain unambiguity while parsing.)
+\end_layout
+
+\begin_layout Standard
+There are several different kinds of embedded clauses, using different embedders
+:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+in
+\series default
+: This embedder forms a rough equivalent to 
+\begin_inset Quotes eld
+\end_inset
+
+one who...
+\begin_inset Quotes erd
+\end_inset
+
+ in English.
+ It forms relative clauses as usually understood.
+ Unlike the case in English or Japanese, this by default strictly produces
+ a noun phrase that acts as the 
+\emph on
+subject
+\emph default
+ of the embedded verb phrase.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+in Midíth kumust
+\end_layout
+
+\begin_layout Plain Layout
+
+{} Midíth eats
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt one who eats Midíth
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+How would we say 
+\emph on
+one whom Midíth eats
+\emph default
+? We use the special pronoun 
+\series bold
+thin
+\series default
+, which fills the slot occupied by 
+\emph on
+whom
+\emph default
+ or 
+\emph on
+who
+\emph default
+ in the English equivalent:
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+in Midíth ei thin kumust
+\end_layout
+
+\begin_layout Plain Layout
+
+{} Midíth {} {} eats
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt one who Midíth eats
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that direct objects in embedded verb phrases have 
+\series bold
+ei
+\series default
+ in front of them.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+kus
+\series default
+: This embedder simply nominalizes the entire verb phrase.
+ An English equivalent would be 
+\begin_inset Quotes eld
+\end_inset
+
+the fact that...
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+Ludhisaef losest kus Midíth sahen kumunt.
+\end_layout
+
+\begin_layout Plain Layout
+
+{every person} knows {} Midíth fish ate
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Everybody knows that Midíth ate fish.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+Kus Midíth ei Vahaseth kérista rest mellen.
+\end_layout
+
+\begin_layout Plain Layout
+
+{} Midíth {}  Vahaseth loves is beautiful
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt The fact that Midíth loves Vahaseth is beautiful.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+rith
+\series default
+: This embedder denotes the time at which a certain verb phrase happened.
+ It is analogous to English 
+\begin_inset Quotes eld
+\end_inset
+
+time when ...
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Of course, one may use an 
+\series bold
+in
+\series default
+ construction, but using 
+\series bold
+rith
+\series default
+ is more concise; using 
+\series bold
+in
+\series default
+ together with 
+\series bold
+thin
+\series default
+ and prepositions is perceived as a wordy circumlocution.
+\end_layout
+
+\begin_deeper
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+Mimirista rith Midíth sahen kumunt.
+\end_layout
+
+\begin_layout Plain Layout
+
+{I like} {} Midíth fish ate
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt I like the time when Midíth ate the fish.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+Mimirista sé rith Midíth sahen kumunt.
+\end_layout
+
+\begin_layout Plain Layout
+
+{I like} all {} Midíth fish ate
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt I like every time when Midíth ate a fish.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+inith
+\series default
+: This embedder denotes location the same way 
+\series bold
+rith
+\series default
+ denotes time.
+\end_layout
+
+\begin_deeper
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+Limosent inith Midíth losest Silach Miasum
+\end_layout
+
+\begin_layout Plain Layout
+
+{I saw} {} Midíth sees sea {of Miyasa}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt I saw where Midíth saw the Sea of Miyasa
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that Ludhisyn uses present tense on 
+\series bold
+losest
+\series default
+ even where English uses past tense for the second 
+\emph on
+saw
+\emph default
+.
+ This is due to Ludhisyn's relative tense system, covered in TODO.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Basic appositional
+\end_layout
+
+\begin_layout Standard
+The appositional noun phrase can simply be another noun phrase, which quantifies
+ the head.
+ Appositional noun phrases are how Ludhisyn expresses ideas such as those
+ expressed by English adjectives, or Japanese verbs in adnominal form.
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+Midíth kif mellen
+\end_layout
+
+\begin_layout Plain Layout
+
+Midíth person {beautiful thing}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Midith, a beautiful person
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+ameth [an [Durin [kohos Moriasyn]]]
+\end_layout
+
+\begin_layout Plain Layout
+
+door of Durin king {of Moria}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt door of Durin, king of Moria (Durin rules Moria)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that we are using both the genitive suffix 
+\series bold
+-yn
+\series default
+, and the genitive preposition 
+\series bold
+an
+\series default
+, both meaning 
+\begin_inset Quotes eld
+\end_inset
+
+thing of ....
+\begin_inset Quotes erd
+\end_inset
+
+.
+ The difference is one of scope; 
+\series bold
+-yn
+\series default
+ modifies a word, while 
+\series bold
+an
+\series default
+ starts a syntactic structure whose complement is an entire noun phrase.
+ There are many such pairs of suffixes, and prepositions, see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Derived-nouns"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Descriptive appositionals
+\end_layout
+
+\begin_layout Standard
+Appositional noun phrases, by default, cannot add attributes to an existing
+ item in the universe of discourse.
+ So 
+\series bold
+Durin kohos Moriasyn
+\series default
+ cannot mean 
+\emph on
+Durin, who is the king of Moria by the way
+\emph default
+.
+ It instead refers to 
+\emph on
+Durin, King of Moria
+\emph default
+, identifying a specific Durin known to the listener to be King of Moria.
+ A 
+\begin_inset Quotes eld
+\end_inset
+
+by the way
+\begin_inset Quotes erd
+\end_inset
+
+ description, which adds new information, uses the special linker 
+\series bold
+si
+\series default
+ before the appositional.
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+Midíth si mellen kérista Athrengif si in ládin tahadin.
+\end_layout
+
+\begin_layout Plain Layout
+
+Midíth {} beautiful loves Athrengif {} {} language creates
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Midíth, who is beautiful, loves Athrengif, who creates languages.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As hinted with the Durin example, titles are generally considered essential
+ to one's identity, and uses forms without 
+\series bold
+si
+\series default
+: 
+\series bold
+Midíth kohos Aglabegun
+\series default
+ 
+\emph on
+Queen Midíth of Aglabech
+\emph default
+.
+ This doesn't mean that 
+\series bold
+Midíth si kohos Aglabegun
+\series default
+ would be 
+\begin_inset Quotes eld
+\end_inset
+
+wrong
+\begin_inset Quotes erd
+\end_inset
+
+ though; it simply means something else: 
+\emph on
+Midíth, who happens to be Queen of Aglabech
+\emph default
+.
+\end_layout
+
+\begin_layout Section
+Other noun phrases
+\end_layout
+
+\begin_layout Subsection
+Coordination
+\end_layout
+
+\begin_layout Standard
+Coordination in Ludhisyn is done by the combination of a particle and a
+ suffix.
+ The particle goes in between the coordinated noun phrases, and the suffix
+ is attached to the last word in the noun phrase.
+ This creates a new 
+\emph on
+nominal head
+\emph default
+, so the coordinated noun phrases can then be further embedded into other
+ noun phrases.
+ In noun phrase coordination, the suffix is always 
+\series bold
+-och
+\series default
+ (triggering soft mutation as necessary); different particles have different
+ meanings:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+i
+\series default
+: This particle denotes set union, and creates a noun phrase which is composed
+ of the coordinated elements.
+ This particle is also used as the starting particle in all constructions.
+\end_layout
+
+\begin_deeper
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+Limosest i Midíth i Arekiedoch.
+\end_layout
+
+\begin_layout Plain Layout
+
+see.1-PRES and Midíth and Arekíth-TERM
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt I'm looking at Midíth and Arekíth.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+a
+\series default
+: This particle denotes exclusive or: something that is either describable
+ by one noun phrase or the other, but not both.
+\end_layout
+
+\begin_deeper
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+Limosest i Midíth a Arekiedoch.
+\end_layout
+
+\begin_layout Plain Layout
+
+see.1-PRES xor Midíth xor Arekíth-TERM
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt I'm looking at either Midíth or Arekíth.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+o
+\series default
+: This particle denotes set intersection: something that is both one thing
+ and also another thing.
+\end_layout
+
+\begin_deeper
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+Limosest i Midíth o Arekiedoch.
+\end_layout
+
+\begin_layout Plain Layout
+
+see.1-PRES and Midíth and Arekíth-TERM
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt I'm looking at somebody who's both Midíth and Arekíth.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+Arekíth rest i mellen o pelenoch.
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth be.3-PRES and beautiful and tall-TERM
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Arekíth is beautiful and tall.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+The distinction between 
+\series bold
+i
+\series default
+ and 
+\series bold
+o
+\series default
+ is very important, even though both are 
+\begin_inset Quotes eld
+\end_inset
+
+and
+\begin_inset Quotes erd
+\end_inset
+
+ in English.
+ The following sentence, though grammatical, has a usually nonsensical meaning:
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+#Arekíth rest i mellen i pelenoch.
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth be.3-PRES and beautiful and tall-TERM
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Arekíth is a group of two: a beautiful one and a tall one.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Similar constructions, however, do see use as rather poetic metaphors of
+ people having 
+\begin_inset Quotes eld
+\end_inset
+
+multiple parts
+\begin_inset Quotes erd
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+Rimest i Sahesyn i Tuutynoch.
+\end_layout
+
+\begin_layout Plain Layout
+
+be.1-PRES and Sahes-GEN and Earth-GEN-TERM
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt I have a Sakasic part and a Terran part.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here's an example showing coordinated noun phrases behave as a noun phrase
+ head rather than an entire noun phrase:
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+I Sahesyn i Miasunoch urusen idorant on Keled.
+\end_layout
+
+\begin_layout Plain Layout
+
+and Sahes-GEN and Miyasa-GEN-TERM sad go.3-PST to Keled
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt A sad Sakasian and a sad Miyasan went to Keled.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Nominal prepositions
+\end_layout
+
+\begin_layout Standard
+There is a set of 
+\emph on
+nominal prepostions
+\emph default
+ which are put in front of full noun phrases to make other noun phrases.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+sé
+\series default
+ describes all the things that can be described by the noun phrase.
+\end_layout
+
+\begin_deeper
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+sé Miasun urusenath
+\end_layout
+
+\begin_layout Plain Layout
+
+all Miyasa-GEN sad-TERM
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt all sad Miyasans
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+sábi
+\series default
+ denotes a set of things that can be described by the noun phrase
+\end_layout
+
+\begin_deeper
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+sábi Miasun pelen
+\end_layout
+
+\begin_layout Plain Layout
+
+set.of Miyasa-GEN large
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt a group of large Miyasans
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+i sábi Miasun o pelenoch
+\end_layout
+
+\begin_layout Plain Layout
+
+and set.of Miyasa-GEN and large-TERM
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt a large group of Miyasans
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+an
+\series default
+ denotes something that belongs to something else.
+\end_layout
+
+\begin_deeper
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+an Midíth
+\end_layout
+
+\begin_layout Plain Layout
+
+of Midíth
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt something of Midíth
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+indin an Midíth
+\end_layout
+
+\begin_layout Plain Layout
+
+book of Midíth
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Midíth's book
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Chapter
+Verb morphology
+\end_layout
+
+\begin_layout Standard
+Ludhisyn verb morphology is considerably more complex than its noun morphology.
+ The Sakasic tenses and aspects are all inherited, and a system of personal
+ agreement has developed.
+ There is also a distinction between 
+\emph on
+light
+\emph default
+ and 
+\emph on
+dark
+\emph default
+ verbs, with slightly differing conjugation patterns; these descend from
+ the front and back vowel harmony classes in proto-Sakasic.
+ When adding multiple suffixes to a verb stem, noun-type lenition (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Noun-lenition"
+
+\end_inset
+
+) does 
+\emph on
+not
+\emph default
+ apply; however, there is a system of vowel syncope dependent on the light
+ and dark conjugation classes.
+\end_layout
+
+\begin_layout Section
+Light and dark conjugation
+\end_layout
+
+\begin_layout Subsection
+Identifying classification
+\end_layout
+
+\begin_layout Standard
+Ludhisyn verbs belong either to the 
+\emph on
+light conjugation
+\emph default
+ or the 
+\emph on
+dark conjugation
+\emph default
+.
+ Identifying a verb's conjugation class is very easy; the citation form
+ of a verb is the 3rd person, present tense form.
+ Verbs ending in 
+\series bold
+-sta
+\series default
+ in the citation form belong to the light conjugation, and verbs ending
+ in 
+\series bold
+-st
+\series default
+ belong to the dark conjugation.
+ So for example, 
+\series bold
+kérista
+\series default
+ 
+\emph on
+to love (a person)
+\emph default
+ is a light verb ,while 
+\series bold
+kumust
+\series default
+ 
+\emph on
+to eat
+\emph default
+ is a dark verb.
+\end_layout
+
+\begin_layout Standard
+One may wish to identify the conjugation class of a verb in running text,
+ without access to its citation form --- in many conjugated forms the endings
+ for the classes are identical.
+ In this case, the first vowel of the word, in most cases, will indicate
+ the class:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Light
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Dark
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Either
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+é
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+á
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+i
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+y
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+í
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+u
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+e
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ý
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ú
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ó
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Of course, there are some exceptions, like 
+\series bold
+sénest
+\series default
+ 
+\emph on
+to drink
+\emph default
+ which is a dark verb, but these examples are very rare
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Historically, these exceptions arise from verbs where the first vowel is
+ a diphthong; in this case 
+\series bold
+sénest
+\series default
+ came from proto-Sakasic 
+\series bold
+sojna
+\series default
+, whose shape however changed to 
+\series bold
+sööna
+\series default
+ --- while keeping back harmony for affixes -- early in the evolution of
+ Ludhisyn.
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Strong and weak vowels
+\end_layout
+
+\begin_layout Standard
+When conjugating a verb, certain vowels tend to drop away.
+ These vowels are called 
+\emph on
+weak
+\emph default
+ vowels; the exact conditioning environment for their deletion is when they
+ are:
+\end_layout
+
+\begin_layout Itemize
+at the end of a word, or
+\end_layout
+
+\begin_layout Itemize
+between a sonorant and a stop, or
+\end_layout
+
+\begin_layout Itemize
+between two sonorants, and
+\end_layout
+
+\begin_layout Itemize
+will not result in three consonants in a row, or an illegal cluster, when
+ deleted
+\end_layout
+
+\begin_layout Standard
+After a weak vowel is deleted, the adjacent consonants produced undergoes
+ assimilation: the sequences 
+\series bold
+-nb-
+\series default
+, 
+\series bold
+-nd-
+\series default
+ become 
+\series bold
+-nn-
+\series default
+ (for example, 
+\series bold
+séna-din
+\series default
+ becomes 
+\series bold
+sénnin
+\series default
+ 
+\emph on
+drinking
+\emph default
+).
+ 
+\end_layout
+
+\begin_layout Standard
+One can regularly predict which vowels are weak based on the conjugation
+ class of the verb; the relationship is showed in the following table.
+ A checkmark indicates that a particular vowel is weak for that conjugation
+ class.
+ The long vowels are never weak.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Vowel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Light
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Dark
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\times$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+i
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\times$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+u
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\times$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+y
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+e
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\times$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\times$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So now we can explain the difference in citation form between light and
+ dark verbs: the underlying morpheme representing third person present is
+ 
+\series bold
+-sta
+\series default
+, but when the verb is dark, 
+\series bold
+a
+\series default
+ becomes a weak vowel, and is thus deleted from the end of the word.
+ It also explains irregular-seeming conjugations like 
+\series bold
+séneg
+\series default
+ 
+\emph on
+it starts to drink
+\emph default
+ versus 
+\series bold
+séngelte
+\series default
+ 
+\emph on
+it will start to drink
+\emph default
+ --- the underlying morpheme sequences are 
+\series bold
+séna-ga
+\series default
+ and 
+\series bold
+séna-ga-lte
+\series default
+; the first weak 
+\series bold
+a
+\series default
+ is prevented from dropping in 
+\series bold
+séneg
+\series default
+, but drops in 
+\series bold
+séngelte
+\series default
+.
+ The change to 
+\series bold
+e
+\series default
+ is explained in the next section.
+\end_layout
+
+\begin_layout Subsection
+Short vowel raising
+\end_layout
+
+\begin_layout Standard
+The situation is further complicated by the process of short vowel raising.
+ A weak vowel that survives deletion undergoes this change when it finds
+ itself in a closed syllable --- a syllable that ends in a consonant.
+ The following table gives original and raised forms for all vowels:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Original
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Raised
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+e
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+i
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+i
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+u
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+u
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+e
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+i
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+o
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+u
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So a word like 
+\series bold
+sénest
+\series default
+ is actually formed from the stem 
+\series bold
+séna-
+\series default
+ and the suffix 
+\series bold
+-st
+\series default
+ denoting present tense, third person.
+\end_layout
+
+\begin_layout Section
+Aspect
+\end_layout
+
+\begin_layout Standard
+In Ludhisyn, aspect is applied before tense and person; for example in the
+ word 
+\series bold
+siméngelte
+\series default
+ 
+\emph on
+I will start to drink
+\emph default
+, the root is 
+\series bold
+séna-
+\series default
+, the aspect is expressed by 
+\series bold
+-ga
+\series default
+, the tense by 
+\series bold
+-lta
+\series default
+, and person by the infix 
+\series bold
+im
+\series default
+.
+ There are the four Sakasic aspects of continuous, inchoative, cessative,
+ and gnomic, in addition to the innovation of the completive.
+\end_layout
+
+\begin_layout Subsection
+Continuous
+\end_layout
+
+\begin_layout Standard
+The continuous aspect is the unmarked aspect; it denotes an observation
+ or prediction that a certain event is in progress.
+ When a verb conjugation does not contain an aspect morpheme, then the continuou
+s aspect is meant.
+ For example, 
+\series bold
+kérista
+\series default
+ 
+\emph on
+is loving
+\emph default
+, from the stem 
+\series bold
+kéri-
+\series default
+ and the tense suffix 
+\series bold
+-sta
+\series default
+ denoting present tense, is in the continuous aspect due to the lack of
+ an aspect marker.
+\end_layout
+
+\begin_layout Standard
+Ludhisyn's continuous aspect encompasses a considerably wider range of meaning
+ than that of English.
+ For example, it encompasses any expressions of state at a specific time:
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Kimérist kin.
+\end_layout
+
+\begin_layout Plain Layout
+
+k{
+\backslash
+la}im{
+\backslash
+ra}éri-0-sta kin
+\end_layout
+
+\begin_layout Plain Layout
+
+love.1-CONT-PRES you
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt I love you.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is in contrast to English's continuative, which implies a temporary
+ state (McDonald's 
+\emph on
+I'm loving it
+\emph default
+).
+ In fact, most of time 
+\begin_inset Quotes eld
+\end_inset
+
+simple
+\begin_inset Quotes erd
+\end_inset
+
+ aspects in English translate to the continuous:
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Arekíth rest kérian senyn.
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth ra-0-sta kéri-an sen-yn
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth be.3-CONT-PRES beloved 3-GEN
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Arekíth is his beloved.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In contrast to English, the continuative implies an unbroken action:
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Glosse
+status open
+
+\begin_layout Plain Layout
+
+Arekíth thrith Vahaseth kumust tahadan tehel tahân.
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth while Vahaseth eat.3-PRES create.3-CONT-PST this building
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Arekíth built this building while Vahaseth was eating.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Inchoative
+\end_layout
+
+\begin_layout Standard
+The inchoative aspect denotes an observation, assertion, or prediction of
+ a state or action beginning.
+ It's marked by the morpheme 
+\series bold
+-ga
+\series default
+.
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Kimérga kin.
+\end_layout
+
+\begin_layout Plain Layout
+
+k{
+\backslash
+la}im{
+\backslash
+ra}éri-ga-0 kin
+\end_layout
+
+\begin_layout Plain Layout
+
+love.1-INCH-PRES you
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt I am falling in love with you.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Limást kus Midíth kungant.
+\end_layout
+
+\begin_layout Plain Layout
+
+l{
+\backslash
+la}im{
+\backslash
+ra}á-0-sta kus Midíth kumu-ga-nt
+\end_layout
+
+\begin_layout Plain Layout
+
+speak-CONT-PRES-1 NMZ Midíth eat-INCH-PST
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt I say that Midíth has started to eat.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that when a non-continuative aspect is mentioned, the present tense
+ marker is dropped.
+ Additionally, note that English's perfective aspect is not expressed in
+ Ludhisyn; instead the context makes clear what is meant by, literally,
+ 
+\begin_inset Quotes eld
+\end_inset
+
+the event of Midíth starting to eat is in the past
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Tenses will be discussed later.
+\end_layout
+
+\begin_layout Subsection
+Cessative
+\end_layout
+
+\begin_layout Standard
+The cessative aspect denotes the opposite of the inchoative: it refers to
+ the ending of a state or action.
+ It's marked by the morpheme 
+\series bold
+-dho
+\series default
+.
+ The cessative generally denotes the ending of a particular instance of
+ a state or action happening, instead of the end of the appearance of some
+ particular state or action.
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Pavlinas kumudhunt apech.
+\end_layout
+
+\begin_layout Plain Layout
+
+Pavlinas kumu-dho-nt apech
+\end_layout
+
+\begin_layout Plain Layout
+
+Pavlinas eat-CESS-PST wine
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Pavlina stopped drinking wine [for the moment].
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Completive
+\end_layout
+
+\begin_layout Standard
+The completive aspect is marked by the morpheme 
+\series bold
+-me
+\series default
+.
+ It denotes an observation, assertion, or prediction of a state or action
+ ending.
+ Using the completive aspect, as opposed to the cessative, implies that
+ the action or state is unique or specific, and that the ending of the state
+ is permanent.
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Midíth kériment kin.
+\end_layout
+
+\begin_layout Plain Layout
+
+Midíth kéri-me-nt kin
+\end_layout
+
+\begin_layout Plain Layout
+
+Midíth love.3-CPL-PST you
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Midíth has stopped loving you.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Pavlinas kumment apech.
+\end_layout
+
+\begin_layout Plain Layout
+
+Pavlinas kumu-me-nt apech
+\end_layout
+
+\begin_layout Plain Layout
+
+Pavlinas eat-CPL-PST wine
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Pavlina quit drinking wine.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Gnomic
+\end_layout
+
+\begin_layout Standard
+The gnomic aspect is marked by the morpheme 
+\series bold
+-ntú
+\series default
+.
+ It denotes universal facts, and it is unusual in that it cannot be used
+ with the present tense, and it can also be used without any tense.
+\end_layout
+
+\begin_layout Standard
+Using the gnomic without any tense denotes a state that is asserted to be
+ true regardless of observation:
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Ludhisyn rentú mellen.
+\end_layout
+
+\begin_layout Plain Layout
+
+Ludhisyn ra-ntú mellen
+\end_layout
+
+\begin_layout Plain Layout
+
+Ludhisyn be.3-GNO beautiful
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Ludhisyn is beautiful.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The example means the same thing, but is very much less marked than, the
+ English 
+\emph on
+Ludhisyn was, is, and always will be beautiful
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+The gnomic with a tense denotes something that is true for the entire period
+ of the tense, as opposed to something that is true for a particular instant
+ described by that tense.
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Midíth rentúnt mellen.
+\end_layout
+
+\begin_layout Plain Layout
+
+Midíth ra-ntú-nt mellen
+\end_layout
+
+\begin_layout Plain Layout
+
+Midíth be.3-GNO-PST beautiful
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Midíth has always been beautiful.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Timahentúlde tahân.
+\end_layout
+
+\begin_layout Plain Layout
+
+t{
+\backslash
+la}im{
+\backslash
+ra}aha-ntú-lde taha-an
+\end_layout
+
+\begin_layout Plain Layout
+
+build.1-GNO-FUT house
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt I will be building houses.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Unusually, the gnomic has a negative variant 
+\series bold
+-ntaná
+\series default
+.
+ It denotes something that is universally false, instead of simply not universal
+ly true.
+ It participates in negative concord with 
+\series bold
+ná
+\series default
+ (see TODO), and is crucial for expressing the correct meaning:
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Midíth ná rentanánt mellen.
+\end_layout
+
+\begin_layout Plain Layout
+
+Midíth ná ra-ntá-nt mellen
+\end_layout
+
+\begin_layout Plain Layout
+
+Midíth NEG be.3-GNO.NEG-PST beautiful
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Midíth has never been beautiful.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Midíth ná rentúnt mellen.
+\end_layout
+
+\begin_layout Plain Layout
+
+Midíth ná ra-ntú-nt mellen
+\end_layout
+
+\begin_layout Plain Layout
+
+Midíth NEG be.3-GNO-PST beautiful
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Midíth is not always beautiful.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Midíth ná rentaná kérian minyn.
+\end_layout
+
+\begin_layout Plain Layout
+
+Midíth ná ra-ntaná kéri-an min-yn
+\end_layout
+
+\begin_layout Plain Layout
+
+Midíth NEG be.3-GNO.NEG beloved 1-GEN
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Midíth wasn't, isn't, and never will be my girlfriend.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Midíth ná rentú kérian minyn.
+\end_layout
+
+\begin_layout Plain Layout
+
+Midíth ná ra-ntú kéri-an min-yn
+\end_layout
+
+\begin_layout Plain Layout
+
+Midíth NEG be.3-GNO beloved 1-GEN
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Midíth is not always my girlfriend.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Tense
+\end_layout
+
+\begin_layout Standard
+Tenses in Ludhisyn are rather boring --- there are four tenses, which in
+ the order of their commonality are: the present, the recollective past,
+ the indirect past, and the future.
+ Marking tense in Ludhisyn is mandatory, unless the gnomic aspect (see above)
+ is involved.
+\end_layout
+
+\begin_layout Subsection
+Present
+\end_layout
+
+\begin_layout Standard
+The present tense is denoted using the morpheme 
+\series bold
+-sta
+\series default
+.
+ Note that the final 
+\series bold
+a
+\series default
+ is weak in dark verbs.
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Arekíth kumust kar beigol.
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth kumu-0-sta kar beigol
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth eat.3-CONT-PRES that bagel
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Arekíth is eating that bagel.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The null allomorph 
+\series bold
+-0
+\series default
+ appears when the aspect is inchoative, cessative, or completive:
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Arekíth kumume beigol.
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth kumu-me-0 beigol
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth eat.3-CPL-PRES that bagel
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Arekíth stops eating bagels.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Recollective past
+\end_layout
+
+\begin_layout Standard
+The recollective past is denoted by the morpheme 
+\series bold
+-nt
+\series default
+, and denotes a past event that the speaker has experienced or witnessed.
+ This tense is also used as the standard storytelling tense, and a general
+ past tense where no attention is being given to evidentiality.
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Arekíth on min tament sahen pelen.
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth on min tama-nt sahen pelen
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth to me give.3-PST fish big
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Arekíth gave me a big fish.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Min mivehista rid on Arekíth ei kérdin myn tivament.
+\end_layout
+
+\begin_layout Plain Layout
+
+Min m{
+\backslash
+la}im{
+\backslash
+ra}ehe-sta rith on Arekíth ei kéri-din myn t{
+\backslash
+la}im{
+\backslash
+ra}ama-nt
+\end_layout
+
+\begin_layout Plain Layout
+
+I remember.1-PRES NMZ to Arekíth {} love-NMZ 1.GEN give.1-PST
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt I remember the time when I gave my love to Arekíth.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Indirect past
+\end_layout
+
+\begin_layout Standard
+The indirect past is used when reporting either hearsay, or the result of
+ deduction.
+ The morpheme is 
+\series bold
+-dan
+\series default
+.
+ Somewhat different from usual evidentiality systems, an uncertain statement
+ doesn't necessarily conjugate in the indirect past; unsure memory, for
+ example, would still use the recollective past (the unsureness would likely
+ be expressed in a 
+\emph on
+speaker-state modifier
+\emph default
+, see TODO).
+\end_layout
+
+\begin_layout Subsection
+Future
+\end_layout
+
+\begin_layout Standard
+The future tense reports predictions.
+ The morpheme is 
+\series bold
+-lde
+\series default
+; note that the 
+\series bold
+e
+\series default
+ is weak for light verbs.
+ When the 
+\series bold
+e
+\series default
+ drops out at the end of a word, devoicing happens to the 
+\series bold
+d
+\series default
+, and this change is reflected in the orthography, resulting in an allomorph
+ 
+\series bold
+-lt
+\series default
+.
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Arekíth kumulde beigol.
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth kumu-0-lta beigol.
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth eat-CONT-FUT beigol
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Arekíth will eat a bagel
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Person
+\end_layout
+
+\begin_layout Standard
+Rather curiously, person conjugation is based on infixing before the first
+ vowel of the verb after tense and aspect conjugation is complete.
+ The person conjugation is completely regular and ignores the strong/weak
+ distinction in vowels.
+ It also completely ignores number.
+\end_layout
+
+\begin_layout Subsection
+First person
+\end_layout
+
+\begin_layout Standard
+The first-person infix is 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+la}im{
+\backslash
+ra}
+\end_layout
+
+\end_inset
+
+.
+ If the verb has 
+\series bold
+m
+\series default
+ anywhere else, the 
+\series bold
+m
+\series default
+ dissimilates to 
+\series bold
+v
+\series default
+.
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Kivumust sahen.
+\end_layout
+
+\begin_layout Plain Layout
+
+k{
+\backslash
+la}im{
+\backslash
+ra}umu-0-sta sahen
+\end_layout
+
+\begin_layout Plain Layout
+
+eat.1-CONT-PRES sahen
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt I'm eating fish.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Rimest kif.
+\end_layout
+
+\begin_layout Plain Layout
+
+r{
+\backslash
+la}im{
+\backslash
+ra}a-0-sta kif
+\end_layout
+
+\begin_layout Plain Layout
+
+be.1-CONT-PRES person
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt I'm a person.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Second person
+\end_layout
+
+\begin_layout Standard
+The second-person infix is 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+la}ig{
+\backslash
+ra}
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Kigumust sahen.
+\end_layout
+
+\begin_layout Plain Layout
+
+k{
+\backslash
+la}ig{
+\backslash
+ra}umu-0-sta sahen
+\end_layout
+
+\begin_layout Plain Layout
+
+eat.2-CONT-PRES sahen
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt You're eating fish.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Third person
+\end_layout
+
+\begin_layout Standard
+The third person is the unmarked person.
+ There is no infix.
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Kumust sahen.
+\end_layout
+
+\begin_layout Plain Layout
+
+kumu-0-sta sahen
+\end_layout
+
+\begin_layout Plain Layout
+
+eat.3-CONT-PRES sahen
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt They're eating fish.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Irregular verbs
+\end_layout
+
+\begin_layout Standard
+There are a handful of irregular verbs in Ludhisyn; all irregular verbs
+ are irregular only in tense/aspect conjugation, and never in person conjugation.
+\end_layout
+
+\begin_layout Subsection
+The copula 
+\emph on
+rest
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+rest
+\series default
+ is the Ludhisyn copula (see TODO for syntactic details); its conjugation
+ is irregular due to both a lack of historical analogical leveling and suppletio
+n.
+ We show here the conjugation of 
+\series bold
+rest
+\series default
+ in the third person form.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="5">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Present
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Recollective past
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Indirect past
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Future
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Continuous
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+rest
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+rent
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+raden
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+arelt
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Inchoative
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+arag
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ergent
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ragaden
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+argelt
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Cessative
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+N/A
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Completive
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+gelest
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+gelent
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+galden
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+gerelt
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Gnomic
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+are
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+rentúden
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+rentúlt
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The cessative does not exist due to semantic reasons --- 
+\series bold
+rest
+\series default
+ generally describes somewhat inherent attributes.
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+proist
+\emph default
+-type verbs
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+proist
+\series default
+ 
+\emph on
+to think
+\emph default
+, which is a dark verb, is a typical member of this kind of irregular verb.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="5">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Present
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Recollective past
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Indirect past
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Future
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Continuous
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+proist
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+prînt
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+prêden
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+prîlt
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Inchoative
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+proig
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+prêgent
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+prêgaden
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+prêgelt
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Cessative
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+proidh
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+prêdhunt
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+prêdhoden
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+prêdhult
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Completive
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+prîm
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+prêmint
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+prêmeden
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+prêmilt
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Gnomic
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+prîntú
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+prîntúnt
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+prîntúden
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+prîntúlt
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+There is an alternation between 
+\series bold
+oi
+\series default
+ and 
+\series bold
+ê
+\series default
+ and 
+\series bold
+î
+\series default
+; this is because the underlying stem is actually 
+\series bold
+proe-
+\series default
+; after conjugation, 
+\series bold
+oi
+\series default
+ mutates to 
+\series bold
+î
+\series default
+ before a sonorant, and 
+\series bold
+oe
+\series default
+ unconditionally mutates to 
+\series bold
+ê
+\series default
+.
+\end_layout
+
+\begin_layout Chapter
+Verb phrases
+\end_layout
+
+\begin_layout Standard
+Verb phrases are arguably the most important type of phrase in Ludhisyn.
+ Any Ludhisyn utterance is simply a sequence of verb phrases, separated
+ by conjunctions and interspersed with interjections.
+\end_layout
+
+\begin_layout Section
+Constituent order
+\end_layout
+
+\begin_layout Subsection
+Unmarked order
+\end_layout
+
+\begin_layout Standard
+The unmarked constituent order is:
+\end_layout
+
+\begin_layout Itemize
+The 
+\emph on
+subject
+\emph default
+: a noun phrase
+\end_layout
+
+\begin_layout Itemize
+Any number of 
+\emph on
+prepositional phrases
+\emph default
+ 
+\end_layout
+
+\begin_layout Itemize
+The 
+\emph on
+main verb
+\emph default
+: a verb
+\end_layout
+
+\begin_layout Itemize
+The 
+\emph on
+direct object
+\emph default
+: a noun phrase
+\end_layout
+
+\begin_layout Standard
+As an example, here's a verb phrase demonstrating the constituent order:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{forest}
+\end_layout
+
+\begin_layout Plain Layout
+
+[VP
+\end_layout
+
+\begin_layout Plain Layout
+
+	[NP
+\end_layout
+
+\begin_layout Plain Layout
+
+		[{Midíth si mellen
+\backslash
+
+\backslash
+`beautiful Midíth'}, triangle, align=center]]
+\end_layout
+
+\begin_layout Plain Layout
+
+	[PP
+\end_layout
+
+\begin_layout Plain Layout
+
+		[{ith Keled
+\backslash
+
+\backslash
+`in Keled'}, triangle, align=center]]
+\end_layout
+
+\begin_layout Plain Layout
+
+	[PP
+\end_layout
+
+\begin_layout Plain Layout
+
+		[{on Vahaseth
+\backslash
+
+\backslash
+`to Vahaseth'}, triangle, align=center]]
+\end_layout
+
+\begin_layout Plain Layout
+
+	[V [{tament
+\backslash
+
+\backslash
+`gave'}, align=center]]
+\end_layout
+
+\begin_layout Plain Layout
+
+	[NP
+\end_layout
+
+\begin_layout Plain Layout
+
+		[{kumuen pelen
+\backslash
+
+\backslash
+`large food'}, triangle, align=center]]]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{forest}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which means 
+\emph on
+In Keled, beautiful Midíth gave Vahaseth large food
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection
+Other orders
+\end_layout
+
+\begin_layout Standard
+The most common alternative order is to place some prepositional phrases
+ after the direct object; this is only slightly marked:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{forest}
+\end_layout
+
+\begin_layout Plain Layout
+
+[VP
+\end_layout
+
+\begin_layout Plain Layout
+
+	[NP
+\end_layout
+
+\begin_layout Plain Layout
+
+		[{Midíth si mellen
+\backslash
+
+\backslash
+`beautiful Midíth'}, triangle, align=center]]
+\end_layout
+
+\begin_layout Plain Layout
+
+	[PP
+\end_layout
+
+\begin_layout Plain Layout
+
+		[{ith Keled
+\backslash
+
+\backslash
+`in Keled'}, triangle, align=center]]
+\end_layout
+
+\begin_layout Plain Layout
+
+	[V [{tament
+\backslash
+
+\backslash
+`gave'}, align=center]]
+\end_layout
+
+\begin_layout Plain Layout
+
+	[NP
+\end_layout
+
+\begin_layout Plain Layout
+
+		[{kumuen pelen
+\backslash
+
+\backslash
+`large food'}, triangle, align=center]]
+\end_layout
+
+\begin_layout Plain Layout
+
+	[PP
+\end_layout
+
+\begin_layout Plain Layout
+
+		[{on Vahaseth
+\backslash
+
+\backslash
+`to Vahaseth'}, triangle, align=center]]]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{forest}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+More unusual orders involve moving the direct object.
+ In that case, it must be preceded by the preposition 
+\series bold
+ei
+\series default
+.
+ The preposition 
+\series bold
+ei
+\series default
+ is very important in forming embedded verb phrases, since embedded verb
+ phrases must end in the verb.
+ Consider:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{forest}
+\end_layout
+
+\begin_layout Plain Layout
+
+[NP
+\end_layout
+
+\begin_layout Plain Layout
+
+[NH
+\end_layout
+
+\begin_layout Plain Layout
+
+[NMZ [kus, tier=x]]
+\end_layout
+
+\begin_layout Plain Layout
+
+[VP
+\end_layout
+
+\begin_layout Plain Layout
+
+	[NP
+\end_layout
+
+\begin_layout Plain Layout
+
+		[{Midíth si mellen
+\backslash
+
+\backslash
+`beautiful Midíth'}, triangle, align=center, tier=x]]
+\end_layout
+
+\begin_layout Plain Layout
+
+	[PP
+\end_layout
+
+\begin_layout Plain Layout
+
+		[{ei kumuen
+\backslash
+
+\backslash
+`food'}, triangle, align=center, tier=x]]
+\end_layout
+
+\begin_layout Plain Layout
+
+	[V [{kumunt
+\backslash
+
+\backslash
+`ate'}, align=center, tier=x]]]
+\end_layout
+
+\begin_layout Plain Layout
+
+]]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{forest}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which translates to 
+\emph on
+the fact that Midíth ate food
+\emph default
+.
+\end_layout
+
+\begin_layout Section
+Relative tense
+\end_layout
+
+\begin_layout Standard
+One extremely important note on Ludhisyn, and indeed Sakasic, tense usage
+ is that the tense measurements are not always relative to the present moment.
+ Instead, they are measured from a moving reference point depending on the
+ context.
+ 
+\end_layout
+
+\begin_layout Standard
+In this section we give a non-exhaustive set of rules on the tense reference
+ point; note that not all cases are covered, and in certain situations extraling
+uistic context is important.
+\end_layout
+
+\begin_layout Subsection
+Embedded verb phrases
+\end_layout
+
+\begin_layout Standard
+In an embedded verb phrase, the tense of the embedded phrase is measured
+ relative to the immediately embedding verb phrase.
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Arekíth idrith ei sahen kumust kumunt kar beigol.
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth ith-rith ei sahen kumu-0-sta kumu-0-nt kar beigol
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth when PTC fish eat.3-CONT-PRES eat.3-CONT-PST that bagel
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Arekíth ate that bagel while eating the fish.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Arekíth idrith ei sahen kumunt kumunt kar beigol.
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth ith-rith ei sahen kumu-0-nt kumu-0-nt kar beigol
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth when PTC fish eat.3-CONT-PST eat.3-CONT-PST that bagel
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt Arekíth ate that bagel after eating the fish.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+One thing this does is that it allows Ludhisyn to get by without a perfective
+ aspect:
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Idrith Arekíth ei Vahaseth kérgant kivumunt kar beigol.
+\end_layout
+
+\begin_layout Plain Layout
+
+ith-rith Arekíth ei Vahaseth kéri-ga-nt k{
+\backslash
+la}im{
+\backslash
+ra}umu-0-nt kar beigol
+\end_layout
+
+\begin_layout Plain Layout
+
+when Arekíth PTC Vahaseth love.3-INCEP-PST eat.1-CONT-PST that bagel
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt I ate that bagel when Arekíth had [already] fallen in love with Vahaseth.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+The preposition 
+\emph on
+ech
+\end_layout
+
+\begin_layout Standard
+The preposition 
+\series bold
+ech
+\series default
+, 
+\series bold
+ek-
+\series default
+, 
+\series bold
+eg-
+\series default
+, 
+\series bold
+eh-
+\series default
+ roughly translates to English 
+\emph on
+by
+\emph default
+ as in 
+\emph on
+By April 10, the situation had deteriorated completely
+\emph default
+.
+ It's similar to the preposition 
+\series bold
+ith
+\series default
+ 
+\emph on
+in
+\emph default
+ in its core meaning, but 
+\series bold
+ech
+\series default
+ emphasizes the time more, while 
+\series bold
+ith
+\series default
+ provides the time as an aside.
+ In addition, 
+\series bold
+ech
+\series default
+ can only be used with time expressions, unlike 
+\series bold
+ith
+\series default
+ which is a general locative.
+ (See TODO for more details)
+\end_layout
+
+\begin_layout Standard
+When 
+\series bold
+ech
+\series default
+ is used in a verb phrase, the tense of the verb phrase is then measured
+ relative to the time expressed by the complement of 
+\series bold
+ech
+\series default
+.
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Arekíth ech kar tirith kummedan beigol.
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth ech kar tirith kumu-me-dan beigol
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth by that instant eat.3-CESS-IPST bagel
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt By that time, Arekíth had probably stopped eating the bagel.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An apparent paradox arises when the complement of 
+\series bold
+ech
+\series default
+ itself contains an embedded verb phrase.
+ This is resolved by having this rule trump the previous rule --- tense
+ of the main phrase is relative to the time of the 
+\series bold
+ech
+\series default
+-embedded phrase, while any other embedded phrases' tenses are then relative
+ to the time of the main phrase.
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Arekíth, egrith Hagatvuk on Vahaseth ei beigol tamelde, proist kus Pavlinas
+ ei paheth kumunt.
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth ech-rith Hagatvuk on Vahaseth ei beigol tama-0-lde proe-0-sta kus
+ Pavlinas ei paheth kumu-0-nt
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekíth by-time Hagatvuk to Vahaseth {} bagel give-CONT-FUT think-CONT-PRES
+ that Pavlina {} meat eat-CONT-PST
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt By the time when Hagatvuk will give a bagel to Vahaseth, Arekíth would
+ know that Pavlina has eaten meat.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Pavlinas, egrith ei apech kumunt, ragest veskon.
+\end_layout
+
+\begin_layout Plain Layout
+
+Pavlinas ech-rith ei apech kumu-0-nt ra-ga-sta veskon
+\end_layout
+
+\begin_layout Plain Layout
+
+Pavlina when she {} wine drink-CONT-PST be-INCEP-PRES red
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt When Pavlina drank wine, she became red.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Corpus
+\end_layout
+
+\begin_layout Section
+Song translations
+\end_layout
+
+\begin_layout Subsection
+Itsumo Nando Demo
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{paracol}{2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+呼んでいる　胸のどこか奥で
+\begin_inset Newline newline
+\end_inset
+
+いつも心踊る　夢を見たい
+\begin_inset Newline newline
+\end_inset
+
+悲しみは　数えきれないけれど
+\begin_inset Newline newline
+\end_inset
+
+その向こうできっと　あなたに会える
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+switchcolumn
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Areth veted si pelen an mítnis myn in ást,
+\begin_inset Newline newline
+\end_inset
+
+ol rimest ith nahest inith míth tadethrest;
+\begin_inset Newline newline
+\end_inset
+
+urusodin i derest o im chref ná mod'stoch
+\begin_inset Newline newline
+\end_inset
+
+mé vanelde kus idarid ei kin imabeld' nó.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+switchcolumn*
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+繰り返すあやまちの　そのたびひとは
+\begin_inset Newline newline
+\end_inset
+
+ただ青い空の　青さを知る
+\begin_inset Newline newline
+\end_inset
+
+果てしなく　道は続いて見えるけれど
+\begin_inset Newline newline
+\end_inset
+
+この両手は　光を抱ける
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+switchcolumn
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ludhisaef id sé tirith ná rest id mudis érân;
+\begin_inset Newline newline
+\end_inset
+
+gith san almust hirdin an mith pelen.
+\begin_inset Newline newline
+\end_inset
+
+Nimahent táthmin urusen ei tehel mudis im chref ná modust
+\begin_inset Newline newline
+\end_inset
+
+gith tech ammin almust kum elin vórest.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+switchcolumn*
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+さよならのときの　静かな胸
+\begin_inset Newline newline
+\end_inset
+
+ゼロになるからだが　耳をすませる
+\begin_inset Newline newline
+\end_inset
+
+生きている不思議　死んでいく不思議
+\begin_inset Newline newline
+\end_inset
+
+花も風も街も　みんなおなじ
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+switchcolumn
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Chahermíth myn an tirith an idoradin
+\begin_inset Newline newline
+\end_inset
+
+ith gamath in ná ellarest ást mellengin;
+\begin_inset Newline newline
+\end_inset
+
+i ardin i nárdinoch rentúlt harvan,
+\begin_inset Newline newline
+\end_inset
+
+i oben o hufesoch ei kudaef rest.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+switchcolumn*
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+呼んでいる　胸のどこか奥で
+\begin_inset Newline newline
+\end_inset
+
+いつも何度でも　夢を描こう
+\begin_inset Newline newline
+\end_inset
+
+悲しみの数を　言い尽くすより
+\begin_inset Newline newline
+\end_inset
+
+同じくちびるで　そっとうたおう
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+switchcolumn
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Areth veted si pelen an mítnis myn in ást,
+\begin_inset Newline newline
+\end_inset
+
+ech tiridaef imista nahen mellen.
+\begin_inset Newline newline
+\end_inset
+
+ter chahedin i derest o im chref ná mod'stoch,
+\begin_inset Newline newline
+\end_inset
+
+asar gudef mé tahelt mibán iriên.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+switchcolumn*
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+閉じていく思い出の　そのなかにいつも
+\begin_inset Newline newline
+\end_inset
+
+忘れたくない　ささやきを聞く
+\begin_inset Newline newline
+\end_inset
+
+こなごなに砕かれた　鏡の上にも 
+\begin_inset Newline newline
+\end_inset
+
+新しい景色が　映される
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+switchcolumn
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Míth an prêdin in idorasta ech tiridaef mibangin losest
+\begin_inset Newline newline
+\end_inset
+
+iriên im thin nór gimesedho mevellen.
+\begin_inset Newline newline
+\end_inset
+
+Odeth pidhach in katakangin are min mé imolmugest
+\begin_inset Newline newline
+\end_inset
+
+túth si mibán si an hufesoben.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+switchcolumn*
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+はじまりの朝の　静かな窓 
+\begin_inset Newline newline
+\end_inset
+
+ゼロになるからだ　充たされてゆけ
+\begin_inset Newline newline
+\end_inset
+
+海の彼方には　もう探さない
+\begin_inset Newline newline
+\end_inset
+
+ 輝くものは　いつもここに
+\begin_inset Newline newline
+\end_inset
+
+ わたしのなかに　見つけられたから
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+switchcolumn
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Losemmarys chahen si an ter síref in arag,
+\begin_inset Newline newline
+\end_inset
+
+ith gamath in ná ellarest ei min vóreg.
+\begin_inset Newline newline
+\end_inset
+
+Ei kahel kaef silagun ol limoselt;
+\begin_inset Newline newline
+\end_inset
+
+Kath im elin modust, iderid iderkath,
+\begin_inset Newline newline
+\end_inset
+
+mé ol nimahest inan míth si ammin.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{paracol}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

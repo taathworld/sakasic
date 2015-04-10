@@ -1,0 +1,88 @@
+define psV [a|i|u|e|o|ä|ï|ü|ë|ö];
+define V [psV|ė|ȯ|ı|á|í|ú|é|ó];
+define Vhi [i|u|ï|ü];
+define C [? - V];
+define N [n|m];
+
+define psC [k|p|t|b|d|g|h|m|n|l|r|j|f|s|h|v|z|c];
+
+# Proto-Sakasic phonotactic constraints
+regex ~[?* V V V ?*] .o.
+~[?* j j ?*] .o.
+[(psC) psV (psC)]+ .o.
+~[?* [a|ï|u|ë|o] ?* [ä|i|ü|e|ö] ?*] .o.
+~[?* [ä|i|ü|e|ö] ?* [a|ï|u|ë|o] ?*] .o.
+~[?* [[psV psV] - [a a | e e | i i | o o | u u | ä ä | ë ë | ï ï | ö ö | ü ü]] ?*] .o.
+
+# Mutation before high vowels
+s -> š, c -> č, t -> c || _ Vhi .o.
+      
+# Destruction of vowel harmony
+ä ä -> e e, ö ö -> e e, ü ü -> u u .o.
+ä -> e e, ö -> e e, ü -> u u || .#. (C) _ .o.
+ü -> u, ö -> o, ä -> a, ï -> i .o.
+ë -> o, e -> i, o -> u .o.
+
+# Remove /j/. It is way too annoying.
+j -> 0 || [V - i] _ i .o.
+j -> x || V_V .o.
+j -> r .o.
+
+
+# Get rid of voiced sounds.
+b -> p, d -> t, g -> k, v -> f, h -> H || V _ V V .o.
+b -> p, d -> t, g -> k, v -> f, h -> H || V V _ V .o.
+b -> p, d -> t, g -> k, v -> f, h -> H || _ C .o.
+b -> p, d -> t, g -> k, v -> f, h -> H || C _ .o.
+[b|d|g|v|h] -> 0 \/ ~[V V V [? *]] _ ~[[? *] V V V] .o.
+[r] -> 0 || .#. V _ V C .o.
+[r] -> 0 || C V _ V C .o.
+H -> h .o.
+
+[..] -> r || V _ V V .o.
+
+# pOJ-esque vowel contraction
+[i a] | [i o] -> ė, [a i] | [o i] -> e,
+[u i] -> ı, [u o] | [u a] | [o a] -> ȯ,
+[a u] | [a o] -> o .o.
+
+a a -> á, i i -> í, u u -> ú, e e -> e, o o -> o .o.
+
+# /r/ insertion
+[..] -> r \/ V _ V .o.
+
+# č/š neutralization
+ė -> e, ȯ -> o, i -> ı || [č|š] _ .o.
+
+# Random things
+f -> h || .#. _ .o.
+p -> w || V _ V .o.
+w -> 0 || [a|o] _ i .o.
+w -> 0 ||  _ e .o.
+
+# Voiced stop generation
+N V t -> n d, N V k -> n g, N V p -> m b || V _ V .o.
+
+# Great syllable-final lenition
+t -> s, p -> f, k -> x, m -> n || _ [C | .#. ] .o.
+
+# h deletion
+h -> 0 || _ .#. .o.
+
+# Rhotacism
+s|z -> r || V_V .o.
+s s -> s .o.
+c -> z .o.
+
+# щ-like mergers
+[s|z|š|č]^2 -> št .o.
+
+w -> v .o.
+
+(?*);
+
+
+define main;
+define restr8 (?)^8 .o. main;
+define restr5 (?)^5 .o. main;
+regex main;

@@ -1,0 +1,69 @@
+define Vs [a|i|u|e|o|ä|ï|ü|ë|ö];
+define V [Vs|ā|ī|ū|ē|ō|á];
+define Vhi [i|u|ï|ü];
+define C [? - V];
+
+define psC [k|p|t|b|d|g|h|m|n|l|r|j|f|s|h|v|z|c];
+
+# Proto-Sakasic phonotactic constraints
+regex ~[?* Vs Vs Vs ?*] .o.
+[(psC) Vs (psC)]+ .o.
+~[?* [a|ï|u|ë|o] ?* [ä|i|ü|e|ö] ?*] .o.
+~[?* [ä|i|ü|e|ö] ?* [a|ï|u|ë|o] ?*] .o.
+~[?* [[Vs Vs] - [a a | e e | i i | o o | u u | ä ä | ë ë | ï ï | ö ö | ü ü]] ?*] .o.
+
+# Regressive rounding assimilation
+i -> ü, e -> ö || _ C [ü|ö] .o.
+ï -> u, ë -> o || _ C [u|o] .o.
+
+# /ð/
+z -> ð .o.
+
+# Removal of strange vowels
+ï -> a, ë -> o || .#. (C) _ .o.
+
+# Represent long vowels in other ways
+a a -> ā, i i -> ī, u u -> ū,
+e e -> ē, o o -> ō, ä ä -> ē,
+ö ö -> ē .o.
+
+# Initial long vowels
+ä -> ā, ö -> ē, ü -> ī || .#. (C) _ .o.
+ā -> a, ī -> i, ū -> u, ē -> e, ō -> o, ü -> || ? C _ .o.
+
+# Remove vowel harmony
+ä -> a, ö -> o, ï -> i, ë -> e .o.
+e -> o, u -> o, ü -> o || ? C _ .o.
+
+
+# Samic vowel shifts
+i -> ë, ī -> i, e -> e a, ē -> i e, a -> u o,
+o -> o a, u -> o, ū -> u || .#. (C) _ .o.
+i -> ë || ? C _ .o.
+a -> ā || ? C _ ?* ë .o.
+a -> ē || ? C _ .o.
+o -> ë || ? C _ ?* ë .o.
+o -> ō || ? C _ .o.
+
+# Other vowel shifts
+ë -> o || o C _ .o.
+ë -> e || e C _ .o.
+ë -> a .o.
+
+# Long vowels shorten
+ā -> á, ē -> i, ō -> o || ? C _ (C) .#. .o.
+ā -> á, ē -> e, ō -> o || ? C _ .o.
+ā -> á, ō -> o, ū -> u, ē -> e, ī -> i .o.
+
+
+# consonants shift
+g -> š, c -> č .o.
+s t -> š č .o.
+k -> h || _ [p|t|k|b] .o.
+h b -> h p, h d -> h t .o.
+
+V -> 0 || V [k|p|t] _ [s|š] [V | .#.] .o.
+
+
+
+(?*);

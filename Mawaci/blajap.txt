@@ -1,0 +1,117 @@
+define V [a|i|u|e|o|ä|ï|ü|ë|ö];
+define Vhi [i|u|ï|ü];
+define C [? - V];
+
+define psC [k|p|t|b|d|g|h|m|n|l|r|j|f|s|h|v|z|c];
+
+# Proto-Sakasic phonotactic constraints
+regex ~[?* V V V ?*] .o.
+[(psC) V (psC)]+ .o.
+~[?* [a|ï|u|ë|o] ?* [ä|i|ü|e|ö] ?*] .o.
+~[?* [ä|i|ü|e|ö] ?* [a|ï|u|ë|o] ?*] .o.
+~[?* [[V V] - [a a | e e | i i | o o | u u | ä ä | ë ë | ï ï | ö ö | ü ü]] ?*] .o.
+
+# Regressive rounding assimilation
+i -> ü, e -> ö || _ C [ü|ö] .o.
+ï -> u, ë -> o || _ C [u|o] .o.
+
+# Insertion of prosthetic vowel before initial voiced stops
+[..] -> ë || .#. _ [b|d|g|r|l] [a|ï|u|o|ë] .o.
+[..] -> e || .#. _ [b|d|g|r|l] [ä|i|ü|ö|e] .o.
+
+# Mutation before high vowels
+s -> š, c -> č, t -> c || _ Vhi .o.
+      
+# Short vowel shift
+ä -> a|| C _ C .o.
+
+# Long vowel shortening
+a a -> a,
+e e -> e,
+i i -> i,
+u u -> u,
+o o -> o,
+ä ä -> e,
+ë ë -> a,
+ï ï -> ï,
+ö ö -> e,
+ü ü -> i .o.
+
+ä -> a .o.
+      
+# Random shifts
+ö -> o .o.
+ü -> u .o.
+
+# Consonant deletion
+[h|g] -> 0 || V _ V .o.
+[t|s|n] -> 0 || _ .#. .o.
+
+# More consonant mutation
+[f|v] -> w || .#. _ .o.
+[f|v] -> p .o.
+b -> m, d -> r, z -> r .o.
+
+
+# Degemination
+k k -> k, p p -> p, t t -> t, [m|n] n -> n, [m|n] m -> m,
+[s|š] s -> s, [s|š] š -> š, [c|č] c -> c, [c|č] č -> č,
+[l|r] r -> r, [l|r] l -> l .o.
+
+l -> r .o.
+
+# Retraction of /s/ and /ts/
+s -> š, c -> č || _ C .o.
+
+# Open up all the syllables!
+[..] -> ë || [C - j] _ C .o.
+[..] -> u || C _ .#. .o.
+
+# Raise the mid vowels
+o -> u || V ?* _ ~j,,
+e -> i || V ?* _ ~j.o.
+
+# Vowel coalescence
+j -> 0 || _ i .o.
+[i|e] -> j || V _ [~V] .o.
+a j -> e, e j -> i, u j -> ï, o j -> ï,
+ë j -> e, ë [u|ï] -> o, ë o -> o,
+a [u|ï] -> o, a o -> o || _ ~V .o.
+
+j -> 0 || i _ C .o.
+
+# Add things between vowels
+[..] -> j || V _ [e|ë|i|u] .o.
+[..] -> w || V _ [o|a|ï] .o.  
+
+# Five-vowel system!
+ï -> i,, ë -> o .o.
+
+# Raise things before /n/
+a -> e, e -> i, o -> u || _ n V .o.
+
+# Create voiced consonants
+[m|n] V -> N || V _ [k|p|t|s|š|c|č] .o.
+N k -> g,, N p -> b,, N t -> d, N s -> z,
+N š -> ž,, N c -> z,, N č -> ž .o.
+
+# /p/ shift
+p -> w || V _ V .o.
+w -> 0 || _ u .o.
+
+# /s/ shift
+s -> h || V _ V .o.
+c -> s .o.
+
+# /r/ dissimilation
+r -> n || _ V r .o.
+
+# long vowel generation
+j -> 0 || _ e .o.
+o u -> o o, a u -> o o, e u -> j o o, e i -> e e .o.
+
+# /N/ generation
+[m u | n u] -> N || V _ [C - [m|n]] .o.
+r -> d || N _ .o.
+
+(?*);

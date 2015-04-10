@@ -1,0 +1,302 @@
+# Sound changes to get Ludhisyn (soft-sounding, mildly fusional)
+# rsca with Unicode hack
+
+mod11 _
+
+V = aiueoäïüëöáíúéóâîûêôy
+front = äiüeö
+back = aïuëo
+shrt = aiueo
+C = kpthmlrwjbdgncþðřšžszxfv
+
+frk = þðšžszh
+
+crd	=	aiueo
+rsd =	eiuiu
+lng	=	áíúéó
+ulg =	âîûêô
+
+fum = a_iiyie_i
+oum = eiyei
+
+fuml = a_iíýíú
+
+pm	=	bdptk
+sm	=	vðbdg
+hm	=	ftfþx
+nm  = mnfdg
+
+lq	=	lrmn
+
+vlq   = lr
+
+stop	=	bdgptk
+
+ass = ptbd
+
+* [C]h
+
+[name VOWEL HARMONY
+* [front][]*[back] //
+* [back][]*[front]
+
+* h#
+* [C]j
+* #[C][C]
+* [C][C][C]
+* #[1 C][#1]
+* gg|mn|nm|cs
+
+# H-intensification: h > x when after another h
+
+h		x		h[V]__
+
+# H-removal: intervocalic h disappears, VhC becomes VVC
+
+h 0 [V]__[V]
+h [#1] [1 V]__
+v m [V]__[V]
+
+# Coalescing of diphthongs
+
+* jj
+
+j		i		i__[C]/#
+
+ja 		je 		[C]|[V]__ 
+ji 		i		[C]|[V]__ 
+ju		ü		[C]|[V]__ 
+ja		je		[C]|[V]__ 
+ji		i		[C]|[V]__ 
+ju		y		[C]|[V]__ 
+je		e		[C]|[V]__ 
+jo		ju		[C]|[V]__ 
+jä		e		[C]|[V]__ 
+jï		i		[C]|[V]__ 
+jü		ü		[C]|[V]__ 
+jë		ja		[C]|[V]__ 
+jö		ö		[C]|[V]__ 
+
+aj 		ee 		__[C]|# //
+ej 		ee 		__[C]|# //
+oj 		öö 		__[C]|# //
+uj 		üü 		__[C]|# //
+ëj 		ëë 		__[C]|# //
+ïj 		üü 		__[C]|# 
+
+* [C][C]#
+
+# Final l becomes n
+
+l		n		__#
+j   0   #__
+
+# Medial s becomes h
+
+#s		h		[V]__[shrt]
+
+# Noncardinals flip and become long. 
+# Already long become ultra-long and don't flip
+
+* [V][V][V]
+* á|í|ú|é|ó|â|î|û|ê|ô|y|ý
+* [C][C][C]
+
+[name LONG VOWEL MUTATION
+[ignore-conflicts
+öö		ê		__ //
+üü		î		__ //
+ïï		û		__ //
+ëë		â		__ //
+ää		â		__ //
+aa		â		__ //
+ee		ê		__ //
+ii		î		__ //
+oo		ô		__ //
+uu		û		__
+
+[name NON-INITIAL VOWEL MUTATION
+ö		ó		[V][]*__ //
+ü		ú		[V][]*__ //
+ä		á		[V][]*__ //
+ë		a		[V][]*__ //
+ï		í		[V][]*__
+
+[name INITIAL VOWEL MUTATION
+ö		é		__ //
+ü		í		__ //
+ä		á		__ //
+ï		u		__ //
+ë		a		__
+
+* ä|ö|ï|ë|ü
+# c becomes þ or t
+
+* þ
+c		þ		__
+#c		t		__
+* c
+
+# VC[aeo]CV -> VCCV where legal
+[shrt]	0		[stop]__[vlq][V] 
+#	[shrt]  0   	[frk]__[stop][V] 
+[shrt]	0		[][frk]__[vlq][V]
+[shrt]	0		[][lq]__[lq][V]
+[shrt]	0		[][lq]__[stop][V]
+
+# Fix problems with epithentic vowels and assimilation
+
+0		a		[C]__[C][C] 
+mn		mm		__ 
+nm		nn		__
+mm		m		#__
+nn		n		#__
+
+
+[name Ch SIMPLIFICATION
+[ignore-conflicts
+kh		x		__ //
+th		þ		__ //
+dh		ð		__ //
+rh		ř		__ //
+mh		mm		__ //
+hh		x		__ //
+lh		ll		__ //
+nh		nn		__
+
+* [C][C][C]
+
+# Things to do with þ in clusters
+
+[name thC SIMPLIFICATION
+[ignore-conflicts
+þr		ř		__ //
+þt		tt		__ //
+þp		pp		__
+
+þ		s		__[C]
+
+* [C][C][C]
+
+# Random changes
+
+z		d		__# 
+z   ð   __
+
+# Nasal assimilation
+
+[ass]	n		n__
+
+# Mutation rules
+
+g		h		[V]__[V]
+
+[name SOFT MUTATION
+[pm]	[sm]	[V]__[V] //
+[pm]	[nm]	[lq]__	 
+
+mn		mm		__ 
+nm		nn		__
+
+# Degeminate stops and frics
+[name DEGEMINATION
+[#1]	0		__[1 stop]
+[#1]  0   __[1 frk]
+l    0   __l
+
+# Hard mutation
+
+[name HARD MUTATION
+[pm]	[hm]	__[stop]|# //
+g		x		__[stop]|#
+
+
+# Coalescense of liquids
+ln		ll		__
+
+
+# Lose all final short vowels
+
+[name FINAL SHORT VOWEL DELETION
+[crd]	0		[V][C]+__#
+
+# raise short vowels in closed sylls
+
+[name SHORT VOWEL RAISING
+[crd]	[rsd]	[][]__([C][C])|([C]#)
+
+u	y	[][]__[C]#
+
+# Collapse vowel length
+
+[lng]	[crd]	[][]__[]
+
+á		é		#|(#[C])__ //
+ú		y		#|(#[C])__ //
+ó		á		#|(#[C])__ //
+é		í		#|(#[C])__
+
+[ulg]	[lng]	__
+
+# Umlaut
+
+* a_i
+
+[crd]	[fum]	__[]/í
+[lng] 	[fuml] __[]/í
+[crd]	[oum]	__[C][]*í
+
+# shorten final longs
+
+í		0		__#
+[lng]	[crd]	[][]+__([C]#)|#
+
+* í#
+
+ð   d   __a_i //
+þ   t   __a_i
+
+# adjust final consonants
+
+h   x   __#|[C]
+
+# Coalesce
+
+[lng]i	[ulg]	__
+
+0		j		i__[V]
+ji		í		__
+i		0		__í
+j   0   i__
+
+i   e   a__
+
+iy		ý		__
+
+# Epithentic vowel insertion etc
+
+k	x		__r
+
+[name EPITHENTIC VOWEL INSERTION
+sr	ř		__ //
+0   [#1]	p__l[1 V] //
+0	[#1]	#g|#d|#t__[lq][1 V]
+
+# Respelling
+
+* dh
+* th
+* rh
+* ch
+* ai
+* ei
+
+[name RESPELLING
+x		ch		__ //
+a_i		ai		__ //
+ð		dh		__ //
+þ		th		__ //
+ř		rh		__ //
+e_i		ei		__
+
+* ř|ð|þ|a_i|x
