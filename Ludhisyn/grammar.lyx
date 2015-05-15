@@ -4,32 +4,24 @@
 \begin_header
 \textclass memoir
 \begin_preamble
-
-\renewcommand{\arraystretch}{1.33}
+\usepackage{mathspec}
+\renewcommand{\arraystretch}{1.2}
 \usepackage{microtype}
 %\usepackage{mathspec}
 \usepackage{forest}
 \usepackage{paracol}
 \usepackage{xeCJK}
 
-%\usepackage{unicode-math}
+%---------------FONTS------------------------------------------
 
-%\usepackage{selnolig}
-%\nolig{Th}{T|h} % suppress "Th" ligature globally
-
-\setmainfont[
-BoldFont = {Linux Libertine O Semibold},
-           Ligatures = {TeX,Common}, Numbers=Lining]{Linux Libertine O}
-
-%\setmainfont[
-%BoldFont = {Gentium Basic Bold},
-%Ligatures={TeX, Common}]{Gentium Plus}
-
+%\setmainfont[Scale=1.05, Ligatures={NoRare}]{Junicode}
+%\setmainfont[BoldFont={Gentium Basic Bold}]{Gentium Book Basic}
+\setmainfont[BoldFont={Linux Libertine O Semibold}]{Linux Libertine O}
 \setsansfont{Linux Biolinum O}
+\setmonofont{Gentium Plus}
+\setCJKmainfont{IPAMincho}
 
-\setCJKmainfont[Scale=0.95]{UmePlus P Gothic}
-
-\setmonofont{Linux Libertine Display O}
+%---------------FIX GLOSSES--------------------------------
 
 \usepackage{chngcntr}
 \usepackage{remreset}
@@ -53,7 +45,28 @@ BoldFont = {Linux Libertine O Semibold},
 \let\eachwordthree=\small
 
 
+%-----------FIX KOMA-------------
+
 \aliaspagestyle{chapter}{empty}
+
+
+%----------FIX LIGATURES [LuaTeX]------------
+
+%\usepackage{selnolig}
+%\nolig{ki}{k|i}
+
+%----------FIX LIGATURES [XeTeX]------------
+
+\XeTeXinterchartokenstate=1
+\newXeTeXintercharclass\FirstClass
+\XeTeXcharclass`k\FirstClass
+\newXeTeXintercharclass\SecondClass
+\XeTeXcharclass`i\SecondClass
+\XeTeXinterchartoks\FirstClass\SecondClass={\penalty\@M\hskip\z@}
+
+%----------FIX MATH [XeTeX]--------------
+%\usepackage{mathspec}
+\setmathfont(Digits,Latin,Greek){Junicode}
 \end_preamble
 \options titlepage
 \use_default_options true
@@ -72,7 +85,7 @@ linguistics
 \font_typewriter default
 \font_math auto
 \font_default_family default
-\use_non_tex_fonts true
+\use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
@@ -8008,11 +8021,11 @@ switchcolumn*
 \begin_inset Newline newline
 \end_inset
 
- 輝くものは　いつもここに
+輝くものは　いつもここに
 \begin_inset Newline newline
 \end_inset
 
- わたしのなかに　見つけられたから
+わたしのなかに　見つけられたから
 \end_layout
 
 \begin_layout Standard

@@ -38,6 +38,7 @@ b -> p, d -> t, g -> k, v -> f, h -> H || C _ .o.
 [r] -> 0 || .#. V _ V C .o.
 [r] -> 0 || C V _ V C .o.
 H -> h .o.
+b -> p, d -> t, g -> k.o.
 
 [..] -> r || V _ V V .o.
 
@@ -57,27 +58,31 @@ a a -> á, i i -> í, u u -> ú, e e -> e, o o -> o .o.
 # Random things
 f -> h || .#. _ .o.
 p -> w || V _ V .o.
+w u -> w o .o.
 w -> 0 || [a|o] _ i .o.
 w -> 0 ||  _ e .o.
 
 # Voiced stop generation
-N V t -> n d, N V k -> n g, N V p -> m b || V _ V .o.
+N V t -> n t, N V k -> n k, N V p -> m p,
+N t -> n d, N k -> n g, N p -> m b || V _ V .o.
 
 # Great syllable-final lenition
-t -> s, p -> f, k -> x, m -> n || _ [C | .#. ] .o.
+t -> s, p -> f, k -> x || _ [C | .#. ] .o.
+m -> n || _ C .o.
 
 # h deletion
 h -> 0 || _ .#. .o.
 
 # Rhotacism
-s|z -> r || V_V .o.
+s -> r || V_V .o.
+s -> z || V_V .o.
 s s -> s .o.
-c -> z .o.
 
 # щ-like mergers
 [s|z|š|č]^2 -> št .o.
 
-w -> v .o.
+# Orthography
+#ı -> y, ė -> ë, ȯ -> ö .o.
 
 (?*);
 
