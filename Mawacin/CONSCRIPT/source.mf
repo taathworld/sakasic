@@ -1,0 +1,614 @@
+mode_setup;
+
+beginchar("k",8pt#,15pt#,0);
+    t = h;
+    m = h*0.5;
+    x1 = 0;
+    x2 = w;
+    y1 = t;
+    y2 = t;
+    
+    x3 = 0;
+    y3 = (t+m)/2;
+    
+    x4 = w;
+    y4 = m;
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    draw z2{left}..z3..z4{right};
+    labels(range 1 thru 4);
+endchar;
+
+beginchar("x",8pt#,15pt#,0);
+    x1 = 0;
+    x2 = w;
+    y1 = t;
+    y2 = t;
+    
+    x3 = 0;
+    y3 = (t+m)/2;
+    
+    x4 = w * 4/5;
+    y4 = m;
+    
+    x5 = x4;
+    y5 = (t+2m)/3;
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    draw z2{left}..z3..z4{right}..z5..z4;
+    labels(range 1 thru 7);
+endchar;
+
+beginchar("g",8pt#,15pt#,0);
+    x1 = 0;
+    x2 = w;
+    y1 = t;
+    y2 = t;
+    
+    x3 = 0;
+    y3 = (t+m)/2;
+    
+    x4 = w * 4/5;
+    y4 = m;
+    
+    x5 = x4;
+    y5 = (t+2m)/3;
+    
+    x6 = w * 2/3;
+    y6 = m;
+    
+    x7 = x6;
+    y7 = 0;
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    draw z2{left}..z3..z4{right}..z5..z6{down}..z7;
+    labels(range 1 thru 7);
+endchar;
+
+beginchar("h",8pt#,15pt#,0);
+    x1 = 0;
+    x2 = w;
+    y1 = t;
+    y2 = t;
+    
+    x3 = 0;
+    y3 = (t+m)/2;
+    
+    x4 = w * 4/5;
+    y4 = m;
+    
+    x5 = x4;
+    y5 = (t+2m)/3;
+    
+    x6 = w * 2/3;
+    y6 = m;
+    
+    x7 = x6;
+    y7 = 0;
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    draw z2{left}..z3..z4{right}..z5..z6{down}..z7;
+    
+    pickup pensquare xscaled 0.2w yscaled 0.2w rotated 60;
+    drawdot (w-w/4, (2t+m)/3);
+    
+    labels(range 1 thru 7);
+endchar;
+
+beginchar("p",8pt#,15pt#,0);
+    x1 = 0;
+    x2 = w;
+    y1 = t;
+    y2 = t;
+    
+    x3 = w/5;
+    y3 = m;
+    x4 = x3;
+    y4 = (t+m)/2;
+    
+    x5 = w;
+    y5 = m;
+    
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    draw z2..z3{left}..z4{right}..z5;
+    labels(range 1 thru 5);
+endchar;
+
+beginchar("m",8pt#,15pt#,0);
+    x1 = 0;
+    x2 = w;
+    y1 = t;
+    y2 = t;
+    
+    x3 = w/5;
+    y3 = m;
+    x4 = x3;
+    y4 = (t+m)/2;
+    
+    x5 = w;
+    y5 = m;
+    
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    draw z2..z3{left}..z4{right}..z5;
+    
+    pickup pensquare xscaled 0.2w yscaled 0.2w rotated 60;
+    drawdot (w-w/4, (2t+m)/3);
+    
+    labels(range 1 thru 5);
+endchar;
+
+beginchar("f",8pt#,15pt#,0);
+    x1 = 0;
+    x2 = w;
+    y1 = t;
+    y2 = t;
+    
+    x3 = w/5;
+    y3 = m;
+    x4 = x3;
+    y4 = (t+m)/2;
+    
+    x5 = w;
+    y5 = m;
+    
+    x6 = w;
+    y6 = (t+2m)/3;
+    
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    draw z2..z3{left}..z4{right}..z5..z6..z5;
+    labels(range 1 thru 6);
+endchar;
+
+beginchar("b",8pt#,15pt#,0);
+    x1 = 0;
+    x2 = w;
+    y1 = t;
+    y2 = t;
+    
+    x3 = w/5;
+    y3 = m;
+    x4 = x3;
+    y4 = (t+m)/2;
+    
+    x5 = w;
+    y5 = m;
+    
+    x6 = w;
+    y6 = (t+2m)/3;
+    
+    x7 = w - w/4;
+    y7 = m;
+    
+    x8 = w - w/4;
+    y8 = 0;
+    
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    draw z2..z3{left}..z4{right}..z5..z6{left}..z7{down};
+    draw z7..z8;
+    labels(range 1 thru 8);
+endchar;
+
+beginchar("v",8pt#,15pt#,0);
+    x1 = 0;
+    x2 = w;
+    y1 = t;
+    y2 = t;
+    
+    x3 = w/5;
+    y3 = m;
+    x4 = x3;
+    y4 = (t+m)/2;
+    
+    x5 = w;
+    y5 = m;
+    
+    x6 = w;
+    y6 = (t+2m)/3;
+    
+    x7 = w - w/4;
+    y7 = m;
+    
+    x8 = w - w/4;
+    y8 = 0;
+    
+    
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    draw z2..z3{left}..z4{right}..z5..z6{left}..z7{down};
+    draw z7..z8;
+    
+    pickup pensquare xscaled 0.2w yscaled 0.2w rotated 60;
+    drawdot (w-w/4, (2t+m)/3);
+    
+    labels(range 1 thru 7);
+endchar;
+
+
+beginchar("t",8pt#,15pt#,0);
+    x1 = 0;
+    y1 = t;
+    x2 = x1;
+    y2 = m;
+    x3 = w;
+    y3 = y1;
+    x4 = x3;
+    y4 = y2;
+    
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    draw z2{right}..z3{up};
+    draw z3..z4;
+    labels(range 1 thru 4);
+endchar;
+
+beginchar("d",8pt#,15pt#,0);
+    x1 = 0;
+    y1 = t;
+    x2 = x1;
+    y2 = m;
+    x3 = w;
+    y3 = y1;
+    x4 = x3;
+    y4 = 0;
+    
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    draw z2{right}..z3{up};
+    draw z3..z4;
+    labels(range 1 thru 4);
+endchar;
+
+beginchar("n",8pt#,15pt#,0);
+    x1 = 0;
+    y1 = t;
+    x2 = x1;
+    y2 = m;
+    x3 = w;
+    y3 = y1;
+    x4 = x3;
+    y4 = y2;
+    
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    draw z2{right}..z3{up};
+    draw z3..z4;
+    
+    pickup pensquare xscaled 0.2w yscaled 0.2w rotated 60;
+    drawdot (w-w/2, (2t+m)/3);
+    
+    labels(range 1 thru 4);
+endchar;
+
+beginchar("z",8pt#,15pt#,0);
+    x1 = 0;
+    y1 = t;
+    x2 = x1;
+    y2 = m;
+    x3 = w;
+    y3 = y1;
+    x4 = x3;
+    y4 = 0;
+    
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    draw z2{right}..z3{up};
+    draw z3..z4;
+    
+    pickup pensquare xscaled 0.2w yscaled 0.2w rotated 60;
+    drawdot (w-w/2, (2t+m)/3);
+    
+    labels(range 1 thru 4);
+endchar;
+
+beginchar("s",8pt#,15pt#,0);
+    x1 = 0;
+    y1 = t;
+    x2 = x1;
+    y2 = m;
+    x3 = w*1.1;
+    y3 = y1;
+    
+    x4 = w*0.9;
+    y4 = (9t+1m)/10;
+    
+    x5 = x4;
+    y5 = m;
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    draw z2{right}..z3{up};
+    draw z3..z4{down}..z5;
+    labels(range 1 thru 5);
+endchar;
+
+beginchar("c",8pt#,15pt#,0);
+    x1 = 0;
+    y1 = t;
+    x2 = x1;
+    y2 = m;
+    x3 = w*1.1;
+    y3 = y1;
+    
+    x4 = w*0.9;
+    y4 = (9t+1m)/10;
+    
+    x5 = x4;
+    y5 = m;
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    draw z2{right}..z3{up};
+    draw z3..z4{down}..z5;
+    
+    draw (0,0.8*m)...(w,0.8*m);
+    labels(range 1 thru 5);
+endchar;
+
+beginchar("S",8pt#,15pt#,0);
+    x1 = 0;
+    y1 = t;
+    x2 = x1;
+    y2 = m;
+    x3 = w*1.1;
+    y3 = y1;
+    
+    x4 = w*0.9;
+    y4 = (9t+1m)/10;
+    
+    x5 = x4;
+    y5 = m;
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    draw z2{right}..z3{up};
+    draw z3..z4{down}..z5;
+    
+    pickup pensquare xscaled 0.2w yscaled 0.2w rotated 60;
+    drawdot (w-w/2, (2t+m)/3);
+    
+    labels(range 1 thru 5);
+endchar;
+
+beginchar("C",8pt#,15pt#,0);
+    x1 = 0;
+    y1 = t;
+    x2 = x1;
+    y2 = m;
+    x3 = w*1.1;
+    y3 = y1;
+    
+    x4 = w*0.9;
+    y4 = (9t+1m)/10;
+    
+    x5 = x4;
+    y5 = m;
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    draw z2{right}..z3{up};
+    draw z3..z4{down}..z5;
+    
+    draw (0,0.8*m)...(w,0.8*m);
+    
+    pickup pensquare xscaled 0.2w yscaled 0.2w rotated 60;
+    drawdot (w-w/2, (2t+m)/3);
+    
+    labels(range 1 thru 5);
+endchar;
+
+
+
+beginchar("Q",8pt#,15pt#,0);
+    x1 = 0;
+    y1 = t;
+    x2 = 0;
+    y2 = m;
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    
+    labels(range 1 thru 5);
+endchar;
+
+beginchar("r",8pt#,15pt#,0);
+    x1 = 0;
+    y1 = (2t+m)/3;
+    x2 = w * 2/3;
+    y2 = y1;
+    
+    x3 = 0;
+    y3 = (t+2m)/3;
+    x4 = x2;
+    y4 = y3;
+    
+    
+    x5 = w * 1/3;
+    y5 = t;
+    
+    x6 = x5;
+    y6 = m;
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1{up}..z5{right}..z2{down}..z3{down}..z6{right}..z4{up};
+    
+    labels(range 1 thru 6);
+endchar;
+
+beginchar("w",8pt#,15pt#,0);
+    x1 = w/2;
+    y1 = t;
+    x2 = x1;
+    y2 = m;
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1..z2..cycle;
+    
+    labels(range 1 thru 6);
+endchar;
+
+beginchar("l",8pt#,15pt#,0);
+    x1 = 0;
+    y1 = m;
+    x2 = w/2;
+    y2 = t;
+    x3 = w;
+    y3 = m;
+    
+    pickup pensquare xscaled 0.2w yscaled 0.02w rotated 60;
+    
+    draw z1{right}..z2{up};
+    draw z2{down}..z3{right};
+    
+    labels(range 1 thru 6);
+endchar;
+
+beginchar("a",8pt#,15pt#,0);
+    x1 = 0;
+    y1 = (t+m)/2;
+    x2 = w/4;
+    y2 = m;
+    x3 = w/2;
+    y3 = y1;
+    
+    pickup pensquare xscaled 0.1w yscaled 0.02w rotated 60;
+    
+    draw z1{right}..z2{down};
+    draw z2{up}..z3{right};
+    
+    labels(range 1 thru 6);
+endchar;
+
+beginchar("i",8pt#,15pt#,0);
+    x1 = 0;
+    y1 = m;
+    x2 = w;
+    y2 = (2t+m)/3;
+    
+    pickup pensquare xscaled 0.1w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    
+    labels(range 1 thru 6);
+endchar;
+
+beginchar("u",8pt#,15pt#,0);
+    x1 = 0;
+    y1 = m;
+    x2 = w * 0.9;
+    y2 = ((2t+m)/3)*0.95;
+    
+    x3 = 0.9 * w;
+    y3 = 0.85 * y2;
+    
+    pickup pensquare xscaled 0.1w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    draw z2{right}..z3{left}..cycle;
+    
+    labels(range 1 thru 6);
+endchar;
+
+beginchar("e",8pt#,15pt#,0);
+    x1 = 0;
+    y1 = m;
+    x2 = w/3;
+    y2 = (t+2m)/3;
+    x3 = w * 2/3;
+    y3 = y1;
+    x4 = w;
+    y4 = y2;
+    
+    pickup pensquare xscaled 0.1w yscaled 0.02w rotated 60;
+    
+    draw z1{up}..z2..z3..z4{up};
+    
+    labels(range 1 thru 6);
+endchar;
+
+beginchar("o",8pt#,15pt#,0);
+    x1 = 0;
+    y1 = m;
+    x2 = w/3;
+    y2 = (t+2m)/3;
+    x3 = w * 2/3;
+    y3 = y1;
+    x4 = w;
+    y4 = y2;
+    
+    x5 = w * 0.8;
+    y5 = y2;
+    
+    pickup pensquare xscaled 0.1w yscaled 0.02w rotated 60;
+    
+    draw z1{up}..z2..z3..z4{up};
+    
+    draw z4..z5..cycle;
+    
+    labels(range 1 thru 6);
+endchar;
+
+beginchar("j",8pt#,15pt#,0);
+    x1 = 0;
+    y1 = m;
+    x2 = 0;
+    y2 = (m+t)/2;
+    
+    pickup pensquare xscaled 0.1w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    
+    labels(range 1 thru 6);
+endchar;
+
+beginchar("'",8pt#,15pt#,0);
+    x1 = 0;
+    y1 = m;
+    x2 = w/2;
+    y2 = m;
+    
+    pickup pensquare xscaled 0.1w yscaled 0.02w rotated 60;
+    
+    draw z1..z2;
+    
+    labels(range 1 thru 6);
+endchar;
+
+
+end
