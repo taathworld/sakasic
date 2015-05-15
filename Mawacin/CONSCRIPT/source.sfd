@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1431646992
-ModificationTime: 1431652047
+ModificationTime: 1431661948
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -60,7 +60,7 @@ BeginChars: 47 36
 
 StartChar: .notdef
 Encoding: 0 -1 0
-AltUni2: 00fffd.ffffffff.0 000020.ffffffff.0 000021.ffffffff.0 000022.ffffffff.0 000023.ffffffff.0 000024.ffffffff.0 000025.ffffffff.0 000026.ffffffff.0 000028.ffffffff.0 000029.ffffffff.0 00002a.ffffffff.0 00002b.ffffffff.0 00002c.ffffffff.0 00002d.ffffffff.0 00002e.ffffffff.0 00002f.ffffffff.0 000030.ffffffff.0 000031.ffffffff.0 000032.ffffffff.0 000033.ffffffff.0 000034.ffffffff.0 000035.ffffffff.0 000036.ffffffff.0 000037.ffffffff.0 000038.ffffffff.0 000039.ffffffff.0 00003a.ffffffff.0 00003b.ffffffff.0 00003c.ffffffff.0 00003d.ffffffff.0 00003e.ffffffff.0 00003f.ffffffff.0 000040.ffffffff.0 000041.ffffffff.0 000042.ffffffff.0 000044.ffffffff.0 000045.ffffffff.0 000046.ffffffff.0 000047.ffffffff.0 000048.ffffffff.0 000049.ffffffff.0 00004a.ffffffff.0 00004b.ffffffff.0 00004c.ffffffff.0 00004d.ffffffff.0 00004e.ffffffff.0 00004f.ffffffff.0 000050.ffffffff.0 000052.ffffffff.0 000054.ffffffff.0 000055.ffffffff.0 000056.ffffffff.0 000057.ffffffff.0 000058.ffffffff.0 000059.ffffffff.0 00005a.ffffffff.0 00005b.ffffffff.0 00005c.ffffffff.0 00005d.ffffffff.0 00005e.ffffffff.0 00005f.ffffffff.0 002018.ffffffff.0 000071.ffffffff.0 000079.ffffffff.0 00007b.ffffffff.0 00007c.ffffffff.0 00007d.ffffffff.0 00007e.ffffffff.0 0000a1.ffffffff.0 0000a2.ffffffff.0 0000a3.ffffffff.0 002044.ffffffff.0 0000a5.ffffffff.0 000192.ffffffff.0 0000a7.ffffffff.0 0000a4.ffffffff.0 000027.ffffffff.0 00201c.ffffffff.0 0000ab.ffffffff.0 002039.ffffffff.0 00203a.ffffffff.0 00fb01.ffffffff.0 00fb02.ffffffff.0 002013.ffffffff.0 002020.ffffffff.0 002021.ffffffff.0 0000b7.ffffffff.0 0000b6.ffffffff.0 002022.ffffffff.0 00201a.ffffffff.0 00201e.ffffffff.0 00201d.ffffffff.0 0000bb.ffffffff.0 002026.ffffffff.0 002030.ffffffff.0 0000bf.ffffffff.0 000060.ffffffff.0 0000b4.ffffffff.0 0002c6.ffffffff.0 0002dc.ffffffff.0 0000af.ffffffff.0 0002d8.ffffffff.0 0002d9.ffffffff.0 0000a8.ffffffff.0 0002da.ffffffff.0 0000b8.ffffffff.0 0002dd.ffffffff.0 0002db.ffffffff.0 0002c7.ffffffff.0 002014.ffffffff.0 0000c6.ffffffff.0 0000aa.ffffffff.0 000141.ffffffff.0 0000d8.ffffffff.0 000152.ffffffff.0 0000ba.ffffffff.0 0000e6.ffffffff.0 000131.ffffffff.0 000142.ffffffff.0 0000f8.ffffffff.0 000153.ffffffff.0 0000df.ffffffff.0
+AltUni2: 0000df.ffffffff.0 000153.ffffffff.0 0000f8.ffffffff.0 000142.ffffffff.0 000131.ffffffff.0 0000e6.ffffffff.0 0000ba.ffffffff.0 000152.ffffffff.0 0000d8.ffffffff.0 000141.ffffffff.0 0000aa.ffffffff.0 0000c6.ffffffff.0 002014.ffffffff.0 0002c7.ffffffff.0 0002db.ffffffff.0 0002dd.ffffffff.0 0000b8.ffffffff.0 0002da.ffffffff.0 0000a8.ffffffff.0 0002d9.ffffffff.0 0002d8.ffffffff.0 0000af.ffffffff.0 0002dc.ffffffff.0 0002c6.ffffffff.0 0000b4.ffffffff.0 000060.ffffffff.0 0000bf.ffffffff.0 002030.ffffffff.0 002026.ffffffff.0 0000bb.ffffffff.0 00201d.ffffffff.0 00201e.ffffffff.0 00201a.ffffffff.0 002022.ffffffff.0 0000b6.ffffffff.0 0000b7.ffffffff.0 002021.ffffffff.0 002020.ffffffff.0 002013.ffffffff.0 00fb02.ffffffff.0 00fb01.ffffffff.0 00203a.ffffffff.0 002039.ffffffff.0 0000ab.ffffffff.0 00201c.ffffffff.0 000027.ffffffff.0 0000a4.ffffffff.0 0000a7.ffffffff.0 000192.ffffffff.0 0000a5.ffffffff.0 002044.ffffffff.0 0000a3.ffffffff.0 0000a2.ffffffff.0 0000a1.ffffffff.0 00007e.ffffffff.0 00007d.ffffffff.0 00007c.ffffffff.0 00007b.ffffffff.0 000079.ffffffff.0 000071.ffffffff.0 002018.ffffffff.0 00005f.ffffffff.0 00005e.ffffffff.0 00005d.ffffffff.0 00005c.ffffffff.0 00005b.ffffffff.0 00005a.ffffffff.0 000059.ffffffff.0 000058.ffffffff.0 000057.ffffffff.0 000056.ffffffff.0 000055.ffffffff.0 000054.ffffffff.0 000052.ffffffff.0 000050.ffffffff.0 00004f.ffffffff.0 00004e.ffffffff.0 00004d.ffffffff.0 00004c.ffffffff.0 00004b.ffffffff.0 00004a.ffffffff.0 000049.ffffffff.0 000048.ffffffff.0 000047.ffffffff.0 000046.ffffffff.0 000045.ffffffff.0 000044.ffffffff.0 000042.ffffffff.0 000041.ffffffff.0 000040.ffffffff.0 00003f.ffffffff.0 00003e.ffffffff.0 00003d.ffffffff.0 00003c.ffffffff.0 00003b.ffffffff.0 00003a.ffffffff.0 000039.ffffffff.0 000038.ffffffff.0 000037.ffffffff.0 000036.ffffffff.0 000035.ffffffff.0 000034.ffffffff.0 000033.ffffffff.0 000032.ffffffff.0 000031.ffffffff.0 000030.ffffffff.0 00002f.ffffffff.0 00002e.ffffffff.0 00002d.ffffffff.0 00002c.ffffffff.0 00002b.ffffffff.0 00002a.ffffffff.0 000029.ffffffff.0 000028.ffffffff.0 000026.ffffffff.0 000025.ffffffff.0 000024.ffffffff.0 000023.ffffffff.0 000022.ffffffff.0 000021.ffffffff.0 000020.ffffffff.0 00fffd.ffffffff.0
 Width: 63
 VWidth: 1000
 Flags: HW
@@ -1319,7 +1319,7 @@ LayerCount: 2
 Fore
 Refer: 5 97 S 1 0 0 1 396 45 2
 Refer: 3 81 N 1 0 0 1 0 0 2
-Validated: 4194305
+Validated: 1
 EndChar
 
 StartChar: I
@@ -1341,7 +1341,7 @@ SplineSet
  -37 760 49 822 207 925 c 4
 EndSplineSet
 Refer: 3 81 N 1 0 0 1 0 0 2
-Validated: 4194305
+Validated: 1
 EndChar
 
 StartChar: U
@@ -1375,7 +1375,7 @@ SplineSet
  475 968 471 977 466 988 c 4
 EndSplineSet
 Refer: 3 81 N 1 0 0 1 0 0 2
-Validated: 4194305
+Validated: 1
 EndChar
 
 StartChar: E
@@ -1385,31 +1385,8 @@ VWidth: 7569
 Flags: HW
 LayerCount: 2
 Fore
-SplineSet
-377 1025 m 4
- 394 1042 411 1050 428 1050 c 4
- 443 1050 457 1044 472 1033 c 5
- 480 1017 488 1001 488 985 c 4
- 488 961 465 915 441 899 c 4
- 432 892 422 890 412 890 c 4
- 385 890 358 910 346 938 c 5
- 346 962 l 5
- 157 844 l 6
- 54 781 -33 733 -33 733 c 6
- -36 733 -36 734 -36 736 c 4
- -36 740 -33 746 -33 757 c 4
- -25 773 38 812 172 891 c 4
- 275 954 369 1017 377 1025 c 4
-448 985 m 4
- 440 993 425 1001 425 1001 c 6
- 417 1001 385 986 377 978 c 5
- 377 978 377 970 385 962 c 4
- 401 946 409 938 425 938 c 4
- 446 938 457 944 457 958 c 4
- 457 965 453 974 448 985 c 4
-EndSplineSet
+Refer: 9 101 S 1 0 0 1 471 -39 2
 Refer: 3 81 N 1 0 0 1 0 0 2
-Validated: 4194305
 EndChar
 
 StartChar: O
@@ -1421,7 +1398,7 @@ LayerCount: 2
 Fore
 Refer: 19 111 S 1 0 0 1 459 -60 2
 Refer: 3 81 N 1 0 0 1 0 0 2
-Validated: 4194305
+Validated: 1
 EndChar
 
 StartChar: space
