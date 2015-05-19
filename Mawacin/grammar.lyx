@@ -15,7 +15,7 @@
 \setmainfont[Ligatures={NoRare}]{Junicode}
 %\setmainfont{TeX Gyre Pagella}
 %\setmainfont[BoldFont=Gentium Basic Bold]{Gentium Plus}
-\setmonofont{Gentium Plus}
+\setmonofont{source}
 \setsansfont{Vegur}
 %\setsecheadstyle{\LARGE\centering\bfseries}
 %\setsubsecheadstyle{\large\centering\bfseries}
