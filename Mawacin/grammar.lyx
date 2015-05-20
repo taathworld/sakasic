@@ -16,7 +16,7 @@
 %\setmainfont{TeX Gyre Pagella}
 %\setmainfont[BoldFont=Gentium Basic Bold]{Gentium Plus}
 \setmonofont{source}
-\setsansfont{Vegur}
+\setsansfont{Linux Biolinum O}
 %\setsecheadstyle{\LARGE\centering\bfseries}
 %\setsubsecheadstyle{\large\centering\bfseries}
 %\setsubsubsecheadstyle{\normalsize\centering\bfseries}
@@ -196,7 +196,7 @@ baselineskip}
 
 {
 \backslash
-Large Írtešul Acángif}
+Large Értešul Acóngif}
 \backslash
 
 \backslash
@@ -211,7 +211,7 @@ textheight]
 \backslash
 bfseries {
 \backslash
-large miltir alutarás}}
+large miltir alutarós}}
 \backslash
 
 \backslash
@@ -226,7 +226,7 @@ baselineskip]
 \backslash
 fontsize{50pt}{2em}
 \backslash
-selectfont {Mawacindar lácin}}}
+selectfont {Mawacindar lócin}}}
 \backslash
 
 \backslash
@@ -1590,7 +1590,7 @@ High
 \begin_inset Text
 
 \begin_layout Plain Layout
-/iː/
+
 \end_layout
 
 \end_inset
@@ -1628,7 +1628,7 @@ High
 \begin_inset Text
 
 \begin_layout Plain Layout
-<í>
+
 \end_layout
 
 \end_inset
@@ -1659,7 +1659,16 @@ High
 \begin_layout Plain Layout
 
 \series bold
-Low
+Mid
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/eː/
 \end_layout
 
 \end_inset
@@ -1677,16 +1686,7 @@ Low
 \begin_inset Text
 
 \begin_layout Plain Layout
-/aː/
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+/oː/
 \end_layout
 
 \end_inset
@@ -1706,16 +1706,7 @@ Low
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-<á>
+<é>
 \end_layout
 
 \end_inset
@@ -1725,6 +1716,15 @@ Low
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<ó>
 \end_layout
 
 \end_inset
@@ -1740,11 +1740,11 @@ Low
 \begin_layout Standard
 When typing diacritics is impossible, 
 \emph on
-ii
+ee
 \emph default
 , 
 \emph on
-aa
+oo
 \emph default
 , and 
 \emph on
@@ -2244,7 +2244,7 @@ sakan
 \emph default
  `fish', 
 \emph on
-mís
+més
 \emph default
  `heart'.
  (By the way, the citation form of a noun is the nominative case)
@@ -2382,11 +2382,11 @@ Citation form
 \begin_layout Standard
 For example, 
 \emph on
-mís
+més
 \emph default
  actually has a stem 
 \emph on
-mít-
+mét-
 \emph default
 .
  These stems must be memorized for Type I nouns.
@@ -2443,7 +2443,7 @@ iti
  These nouns are rare, and are called Type III.
  For these nouns, the stem is simply the citation for: 
 \emph on
-itimís
+itimés
 \emph default
  `interior-heart'.
 \end_layout
@@ -2522,7 +2522,7 @@ a
 \begin_inset Text
 
 \begin_layout Plain Layout
-á
+ó
 \end_layout
 
 \end_inset
@@ -2638,7 +2638,7 @@ e/i
 \begin_inset Text
 
 \begin_layout Plain Layout
-í
+é
 \end_layout
 
 \end_inset
@@ -3513,7 +3513,7 @@ ic
 \begin_layout Plain Layout
 it
 \bar under
-íc
+éc
 \end_layout
 
 \end_inset
@@ -3846,7 +3846,7 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė sakanam lırakum tátta.
+Arekisė sakanam lırakum tótta.
 \end_layout
 
 \begin_layout Plain Layout
@@ -4200,19 +4200,19 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė Acángiwıc ėšetta.
+Arekisė Acóngiwıc ėšetta.
 \end_layout
 
 \begin_layout Plain Layout
 
-Arekis=TOP Acángif-COM walk-CONT
+Arekis=TOP Acóngif-COM walk-CONT
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-glt `Arekis is walking with Acángif.'
+glt `Arekis is walking with Acóngif.'
 \end_layout
 
 \end_inset
@@ -4499,7 +4499,7 @@ status open
 
 \begin_layout Plain Layout
 
-Mawacindar lácin
+Mawacindar lócin
 \end_layout
 
 \begin_layout Plain Layout
@@ -4665,7 +4665,7 @@ Noun-deriving
 \begin_inset Text
 
 \begin_layout Plain Layout
--áf
+-óf
 \end_layout
 
 \end_inset
@@ -5779,12 +5779,12 @@ status open
 
 \begin_layout Plain Layout
 
-Silífė arašıtora!
+Siléfė arašıtora!
 \end_layout
 
 \begin_layout Plain Layout
 
-silíf=ė ara-šı-tora
+siléf=ė ara-šı-tora
 \end_layout
 
 \begin_layout Plain Layout
@@ -5868,24 +5868,24 @@ status open
 
 \begin_layout Plain Layout
 
-Silífė arašıngocė Nírkahaf ALkaPam tattoštindanu.
+Siléfė arašıngocė Nérkahaf ALkaPam tattoštindanu.
 \end_layout
 
 \begin_layout Plain Layout
 
-Silíf=ė ara-šı-ngoc=ė Nírkahaf ALkaP-am tatto-šti-nda-nu
+Siléf=ė ara-šı-ngoc=ė Nérkahaf ALkaP-am tatto-šti-nda-nu
 \end_layout
 
 \begin_layout Plain Layout
 
-peace=TOP exist-AOR-PROV=TOP Nírkahaf ALkaP-ACC make.war-CESS-PRF-COND
+peace=TOP exist-AOR-PROV=TOP Nérkahaf ALkaP-ACC make.war-CESS-PRF-COND
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-glt `Had there been peace, Nírkahaf would have stopped making war upon ALkaP.'
+glt `Had there been peace, Nérkahaf would have stopped making war upon ALkaP.'
 \end_layout
 
 \end_inset
@@ -5954,13 +5954,13 @@ status open
 
 \begin_layout Plain Layout
 
-Tannar lıraxė kíricin a palamírazamė mututoc, masapaxol púxacinuc iltarıc
+Tannar lıraxė kéricin a palamérazamė mututoc, masapaxol púxacinuc iltarıc
  šımitora ȯ.
 \end_layout
 
 \begin_layout Plain Layout
 
-tannar lırax=ė kíri-cin a pala-mís-az-am=ė mutu-toc masaf-ax-ol púxa-cin-uc
+tannar lırax=ė kéri-cin a pala-més-az-am=ė mutu-toc masaf-ax-ol púxa-cin-uc
  iltas-ıc šımi-tora ȯ
 \end_layout
 
@@ -6022,7 +6022,7 @@ miltir e Arekisė sakanam kústaros
 
 \begin_layout Plain Layout
 
-be.beautiful-DVA D Arekis=TOP fish-ACC eat-CONT-NMZ
+be.beautiful-DVA D Arekis=TOP fish-ACC eat-CONT-NML
 \end_layout
 
 \begin_layout Plain Layout
@@ -6039,10 +6039,13 @@ glt `the beautiful fact that Arekis eats a fish'
 
 \begin_layout Standard
 One can also form the nominal head meaning 
-\emph on
-the one who...
+\begin_inset Quotes eld
+\end_inset
 
-\emph default
+the one who...
+\begin_inset Quotes erd
+\end_inset
+
  by using 
 \emph on
 -ran
@@ -6062,6 +6065,11 @@ i
 ihe
 \emph default
 .
+ This is known as 
+\series bold
+argument nominalization
+\series default
+.
 \end_layout
 
 \begin_layout Numbered Examples (consecutive)
@@ -6075,7 +6083,7 @@ miltir e Arekisė ėm kústaran
 
 \begin_layout Plain Layout
 
-be.beautiful-DVA D Arekis=TOP PN-ACC eat-CONT-AGZ
+be.beautiful-DVA D Arekis=TOP PN-ACC eat-CONT-ANM
 \end_layout
 
 \begin_layout Plain Layout
@@ -6091,7 +6099,7 @@ glt `the beautiful thing that Arekis is eating'
 \end_layout
 
 \begin_layout Subparagraph
-Deverbal adnominalization
+Deverbal nominalization
 \end_layout
 
 \begin_layout Standard
@@ -6110,7 +6118,8 @@ the state/action of [verb]
 -cin
 \emph default
 .
- 
+ What makes it still often considered inflectional, though, is that it allows
+ for aspect and mood inflections before it.
 \end_layout
 
 \begin_layout Numbered Examples (consecutive)
@@ -6119,17 +6128,17 @@ status open
 
 \begin_layout Plain Layout
 
-Lácinė lıraxė lášıroscač.
+Lócinė lıraxė lóšıroscač.
 \end_layout
 
 \begin_layout Plain Layout
 
-lá-cin=ė lır-ax=ė lá-šı-ros-ca-č.
+ló-cin=ė lır-ax=ė ló-šı-ros-ca-č.
 \end_layout
 
 \begin_layout Plain Layout
 
-speak-DVN=TOP person-PL=TOP speak-AOR-NMZ-COP-GNO
+speak-DVN=TOP person-PL=TOP speak-AOR-NML-COP-GNO
 \end_layout
 
 \begin_layout Plain Layout
@@ -6137,6 +6146,37 @@ speak-DVN=TOP person-PL=TOP speak-AOR-NMZ-COP-GNO
 
 \backslash
 glt `Language is when people speak.'
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Nawocinė nawošıcindanó.
+\end_layout
+
+\begin_layout Plain Layout
+
+nawo-cin=ė nawo-šı-cin-da-nó.
+\end_layout
+
+\begin_layout Plain Layout
+
+love-DVN=TOP love-CONT-DVN-COP-NEG
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt `Love is not [just] being in love.'
 \end_layout
 
 \end_inset
@@ -6165,6 +6205,92 @@ A verb phrase can be turned into an adnominal phrase by adding
 i
 \emph default
  is used in a similar manner as in phrase nominalization.
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Arekisė kústasir a miltizar kınzi
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekis=ė kú-sta-sir a milti-<za>r kınzi
+\end_layout
+
+\begin_layout Plain Layout
+
+Arekis=TOP eat-CONT-ADN and be.beautiful-DVA<and> mushroom
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt `the beautiful mushroom that Arekis ate'
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Deverbal adnominalization
+\end_layout
+
+\begin_layout Standard
+Deverbal adnominalization turns a verb into an adnominal by adding 
+\emph on
+-r
+\emph default
+.
+ Generally, it can only be used with intransitive verbs; in fact, some prescript
+ivists further restrict the scope to 
+\begin_inset Quotes eld
+\end_inset
+
+adjectives
+\begin_inset Quotes erd
+\end_inset
+
+; this, however, is thought to be due to Ludhisyn influence.
+ Like all deverbals, a deverbal adnominal cannot accept arguments.
+ 
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+palar kınziė palač
+\end_layout
+
+\begin_layout Plain Layout
+
+pala-r kınzi=ė pala-č
+\end_layout
+
+\begin_layout Plain Layout
+
+be.big-DVA mushroom=TOP be.big-GNO
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt `big mushrooms are big'
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
