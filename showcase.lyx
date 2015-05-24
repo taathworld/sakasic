@@ -4,7 +4,7 @@
 \begin_header
 \textclass memoir
 \begin_preamble
-\usepackage{mathspec}
+\usepackage{fontspec}
 \renewcommand{\arraystretch}{1.2}
 \usepackage{microtype}
 %\usepackage{mathspec}
@@ -12,16 +12,18 @@
 
 %---------------FONTS------------------------------------------
 
-\setmainfont[Scale=1.00, Ligatures={NoRare}]{Junicode}
-%\setmainfont{TeX Gyre Pagella}
-%\setmainfont[BoldFont={Linux Libertine O Semibold}]{Linux Libertine O}
-%\setmainfont{Lato}
-\setmonofont{Gentium Plus}
-\setsansfont{Linux Biolinum O}
+%\setmainfont{Alegreya Sans}
+%\setmainfont[Ligatures={NoRare}]{Junicode}
+%\setmainfont[BoldFont=Linux Libertine O Bold]{Linux Libertine O}
+\setmainfont[BoldFont=Gentium Basic Bold]{Gentium Plus}
+\setmonofont{source}
+\setsansfont{Alegreya}
 %\setsecheadstyle{\LARGE\centering\bfseries}
 %\setsubsecheadstyle{\large\centering\bfseries}
 %\setsubsubsecheadstyle{\normalsize\centering\bfseries}
 %
+
+\pagestyle{ruled}
 
 %---------------FIX GLOSSES--------------------------------
 
@@ -42,7 +44,7 @@
 \renewcommand{\theequation}{\arabic{equation}}
 
 
-%\let\eachwordone=\rm
+\let\eachwordone=\tt
 \let\eachwordtwo=\small
 \let\eachwordthree=\small
 
@@ -59,16 +61,16 @@
 
 %----------FIX LIGATURES [XeTeX]------------
 
-\XeTeXinterchartokenstate=1
-\newXeTeXintercharclass\FirstClass
-\XeTeXcharclass`k\FirstClass
-\newXeTeXintercharclass\SecondClass
-\XeTeXcharclass`i\SecondClass
-\XeTeXinterchartoks\FirstClass\SecondClass={\penalty\@M\hskip\z@}
+%\XeTeXinterchartokenstate=1
+%\newXeTeXintercharclass\FirstClass
+%\XeTeXcharclass`k\FirstClass
+%\newXeTeXintercharclass\SecondClass
+%\XeTeXcharclass`i\SecondClass
+%\XeTeXinterchartoks\FirstClass\SecondClass={\penalty\@M\hskip\z@}
 
 %----------FIX MATH [XeTeX]--------------
 %\usepackage{mathspec}
-\setmathfont(Digits,Latin,Greek){Junicode}
+%\setmathfont(Digits,Latin,Greek){Linux Libertine O}
 
 
 %---------FIX NUMBERING----------------
@@ -76,7 +78,8 @@
 %\chapterstyle{hangnum}
 \hangsecnum
 
-\usepackage{paracol}
+
+\usepackage{lipsum}
 \end_preamble
 \options titlepage
 \use_default_options true
@@ -101,11 +104,11 @@ linguistics
 \font_sf_scale 100
 \font_tt_scale 100
 \graphics default
-\default_output_format pdf4
+\default_output_format pdf5
 \output_sync 1
 \bibtex_command default
 \index_command default
-\paperfontsize 11
+\paperfontsize 12
 \spacing single
 \use_hyperref false
 \papersize letterpaper
@@ -135,7 +138,7 @@ linguistics
 \end_index
 \leftmargin 3cm
 \topmargin 3cm
-\rightmargin 4cm
+\rightmargin 3cm
 \bottommargin 3cm
 \secnumdepth 3
 \tocdepth 3
@@ -154,15 +157,33 @@ linguistics
 
 \begin_body
 
-\begin_layout Standard
-\begin_inset ERT
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
 status open
+
+\begin_layout Plain Layout
+
+Palamitoxi lócinus ótoci, lócinus Alašumıci ótoci, lócinus alašundarandač.
+\end_layout
+
+\begin_layout Plain Layout
+
+pala-mita-ox=i lócinus ó-toc=i lócinus Alašum-ıc=i ó-toc=i lócinus Alašum-da-ran
+-da-č
+\end_layout
+
+\begin_layout Plain Layout
+
+large-beginning-LOC=TOP word exist-SRL=TOP word God-COM exist-SRL=TOP word
+ God-COP-AGT-COP-GNO
+\end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-begin{paracol}{3}
+glt `In the very beginning was the Word, and the Word was with God, and
+ the Word was something that God is.'
 \end_layout
 
 \end_inset
@@ -170,37 +191,30 @@ begin{paracol}{3}
 
 \end_layout
 
-\begin_layout Standard
-
-\series bold
-Ludhisyn
-\end_layout
-
-\begin_layout Standard
-Ai, min mairith na mibán l'moselde
-\begin_inset Newline newline
-\end_inset
-
-ter palassilach si mellen kivagaenun
-\begin_inset Newline newline
-\end_inset
-
-avad kin si kérian obenkif emuin
-\begin_inset Newline newline
-\end_inset
-
-rith l'mosest rith ná nimahest?
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
 status open
+
+\begin_layout Plain Layout
+
+Lócinusi palamitox Alašumıc óč.
+\end_layout
+
+\begin_layout Plain Layout
+
+lócinus=i pala-mita-ox Alašum-ıc ó-č
+\end_layout
+
+\begin_layout Plain Layout
+
+word=TOP large-beginning-LOC God-COM exist-GNO
+\end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-switchcolumn
+glt `The Word was with God in the beginning.'
 \end_layout
 
 \end_inset
@@ -208,37 +222,32 @@ switchcolumn
 
 \end_layout
 
-\begin_layout Standard
-
-\series bold
-Mawacin
-\end_layout
-
-\begin_layout Standard
-Á, min mescar títox palar šılakappisam
-\begin_inset Newline newline
-\end_inset
-
-miltir mis a kėkar cȯkagárotox
-\begin_inset Newline newline
-\end_inset
-
-rimustatoc nawoškutásoc minol kinıc
-\begin_inset Newline newline
-\end_inset
-
-ácindanár pikol lurenuc alta luraš?
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
 status open
+
+\begin_layout Plain Layout
+
+Tannarusami kilinıc sinuc takametoci, sini takanómesir kus ónóč.
+\end_layout
+
+\begin_layout Plain Layout
+
+tannarus-am=i kilin-ıc sin-uc taka-me-toc=i sin=i taka-nó-me-sir kus ó-nó-č
+\end_layout
+
+\begin_layout Plain Layout
+
+everthing-ACC=TOP now-LOC he-INS create-PRF-SRL=TOP he=TOP create-NEG-PRF-ADN
+ thing exist-NEG-GNO
+\end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-switchcolumn
+glt `Everything was created by him, and there does not exist a thing that
+ he did not create.'
 \end_layout
 
 \end_inset
@@ -246,39 +255,62 @@ switchcolumn
 
 \end_layout
 
-\begin_layout Standard
-
-\series bold
-English translation
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Ah, when shall I ever see again the great sea
-\begin_inset Newline newline
-\end_inset
-
-under the beautiful sky and flying birds
-\begin_inset Newline newline
-\end_inset
-
-with my beloved lovelily smiling,
-\begin_inset Newline newline
-\end_inset
-
-my eyes fixed on what is not a dream?
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
 status open
+
+\begin_layout Plain Layout
+
+Sarafi sinıci ótoc, lırakol ilindač.
+\end_layout
+
+\begin_layout Plain Layout
+
+saraf=i sin-ıc=i ó-toc lır-ak-ol ilin-da-č
+\end_layout
+
+\begin_layout Plain Layout
+
+life=TOP he-LOC=TOP exist-SRL person-PL-GEN light-COP-GNO
+\end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-end{paracol}
+glt `In him was life, and the life was the light of mankind.'
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Numbered Examples (consecutive)
+\begin_inset Flex Tri-Glosse
+status open
+
+\begin_layout Plain Layout
+
+Ilini ramacinıc šımitoci, ramacin sarafam kónóme.
+\end_layout
+
+\begin_layout Plain Layout
+
+ilin=i rama-cin-ıc šımitoc=i rama-cin ilin-am kó-nó-me
+\end_layout
+
+\begin_layout Plain Layout
+
+light=TOP be.dark-DVN-LOC do-SRL-TOP be.dark-DVN light-ACC defeat-NEG-PRF
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+glt `The light shines into the darkness, but the darkness has not defeated
+ the light.'
 \end_layout
 
 \end_inset

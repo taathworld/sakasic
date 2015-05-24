@@ -4,7 +4,7 @@
 \begin_header
 \textclass memoir
 \begin_preamble
-\usepackage{mathspec}
+\usepackage{fontspec}
 \renewcommand{\arraystretch}{1.2}
 \usepackage{microtype}
 %\usepackage{mathspec}
@@ -12,15 +12,18 @@
 
 %---------------FONTS------------------------------------------
 
-\setmainfont[Ligatures={NoRare}]{Junicode}
-%\setmainfont{TeX Gyre Pagella}
+\setmainfont{Alegreya Sans}
+%\setmainfont[Ligatures={NoRare}]{Junicode}
+%\setmainfont[BoldFont=Linux Libertine O Bold]{Linux Libertine O}
 %\setmainfont[BoldFont=Gentium Basic Bold]{Gentium Plus}
-\setmonofont{source}
-\setsansfont{Linux Biolinum O}
+\setmonofont{Gentium Plus}
+\setsansfont{Alegreya}
 %\setsecheadstyle{\LARGE\centering\bfseries}
 %\setsubsecheadstyle{\large\centering\bfseries}
 %\setsubsubsecheadstyle{\normalsize\centering\bfseries}
 %
+
+\pagestyle{ruled}
 
 %---------------FIX GLOSSES--------------------------------
 
@@ -58,16 +61,16 @@
 
 %----------FIX LIGATURES [XeTeX]------------
 
-\XeTeXinterchartokenstate=1
-\newXeTeXintercharclass\FirstClass
-\XeTeXcharclass`k\FirstClass
-\newXeTeXintercharclass\SecondClass
-\XeTeXcharclass`i\SecondClass
-\XeTeXinterchartoks\FirstClass\SecondClass={\penalty\@M\hskip\z@}
+%\XeTeXinterchartokenstate=1
+%\newXeTeXintercharclass\FirstClass
+%\XeTeXcharclass`k\FirstClass
+%\newXeTeXintercharclass\SecondClass
+%\XeTeXcharclass`i\SecondClass
+%\XeTeXinterchartoks\FirstClass\SecondClass={\penalty\@M\hskip\z@}
 
 %----------FIX MATH [XeTeX]--------------
 %\usepackage{mathspec}
-\setmathfont(Digits,Latin,Greek){Junicode}
+%\setmathfont(Digits,Latin,Greek){Linux Libertine O}
 
 
 %---------FIX NUMBERING----------------
@@ -101,7 +104,7 @@ linguistics
 \font_sf_scale 100
 \font_tt_scale 100
 \graphics default
-\default_output_format pdf4
+\default_output_format pdf5
 \output_sync 1
 \bibtex_command default
 \index_command default
@@ -211,7 +214,7 @@ textheight]
 \backslash
 bfseries {
 \backslash
-large miltir alutarós}}
+large miltir a alutazar}}
 \backslash
 
 \backslash
@@ -242,6 +245,28 @@ baselineskip]
 it Mawacin Reference Grammar}}
 \backslash
 par 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setmonofont{source}
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+tt miljtir A Alutzr mwcidr ljAcin}
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -304,7 +329,7 @@ Phonology and orthography
 \end_layout
 
 \begin_layout Standard
-Mawacin's phonology phas a very different feel from that of Ludhisyn, although
+Mawacin's phonology has a very different feel from that of Ludhisyn, although
  this fact is due much more to Ludhisyn's ideosyncratic syncope and usage
  of dental fricatives.
  Mawacin, like other Eastern Sakasic languages, have no trace of any vowel
@@ -428,6 +453,8 @@ Stops
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /p/ /b/
 \end_layout
 
@@ -437,6 +464,8 @@ Stops
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /t/ /d/
 \end_layout
 
@@ -455,6 +484,8 @@ Stops
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /k/ /ɡ/
 \end_layout
 
@@ -542,6 +573,8 @@ Fricatives
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /f/ /v/
 \end_layout
 
@@ -551,6 +584,8 @@ Fricatives
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /s/ 
 \end_layout
 
@@ -560,6 +595,8 @@ Fricatives
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /ʃ/
 \end_layout
 
@@ -569,6 +606,8 @@ Fricatives
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /x/
 \end_layout
 
@@ -578,6 +617,8 @@ Fricatives
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /h/
 \end_layout
 
@@ -665,6 +706,8 @@ Affricates
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /ts/ /dz/
 \end_layout
 
@@ -674,6 +717,8 @@ Affricates
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /tʃ/
 \end_layout
 
@@ -770,6 +815,8 @@ Approximant
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /w/
 \end_layout
 
@@ -779,6 +826,8 @@ Approximant
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /l/
 \end_layout
 
@@ -884,6 +933,8 @@ Nasals
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /m/
 \end_layout
 
@@ -893,6 +944,8 @@ Nasals
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /n/
 \end_layout
 
@@ -1194,6 +1247,8 @@ High
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /i/
 \end_layout
 
@@ -1203,6 +1258,8 @@ High
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /ɨ/
 \end_layout
 
@@ -1212,6 +1269,8 @@ High
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /u/
 \end_layout
 
@@ -1272,6 +1331,8 @@ Mid (tense)
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /je/
 \end_layout
 
@@ -1290,6 +1351,8 @@ Mid (tense)
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /uo ~ jo/
 \end_layout
 
@@ -1310,7 +1373,7 @@ Mid (tense)
 \begin_inset Text
 
 \begin_layout Plain Layout
-<ė>
+<ë>
 \end_layout
 
 \end_inset
@@ -1328,7 +1391,7 @@ Mid (tense)
 \begin_inset Text
 
 \begin_layout Plain Layout
-<ȯ>
+<ö>
 \end_layout
 
 \end_inset
@@ -1350,6 +1413,8 @@ Mid (lax)
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /e/
 \end_layout
 
@@ -1368,6 +1433,8 @@ Mid (lax)
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /o/
 \end_layout
 
@@ -1437,6 +1504,8 @@ Low
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /a/
 \end_layout
 
@@ -1500,11 +1569,11 @@ Low
 \begin_layout Standard
 The realization of 
 \emph on
-ė
+ë
 \emph default
  and 
 \emph on
-ȯ
+ö
 \emph default
  are rather complicated; they are covered in §
 \begin_inset CommandInset ref
@@ -1608,6 +1677,8 @@ High
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /uː/
 \end_layout
 
@@ -1668,6 +1739,8 @@ Mid
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /eː/
 \end_layout
 
@@ -1686,6 +1759,8 @@ Mid
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 /oː/
 \end_layout
 
@@ -1782,30 +1857,45 @@ The realization of the phonemes represented orthographically by
  
 \series default
 \emph on
-ė
+ë
 \emph default
  and 
 \emph on
-ȯ
+ö
 \emph default
  is not straightforward.
  In northern dialects, which form the strongest influence on the standard
  form, 
 \emph on
-ė
+ë
 \emph default
- is realized as [je̞] when it's not preceded by a consonant: 
+ is realized as 
+\family typewriter
+[je̞]
+\family default
+ when it's not preceded by a consonant: 
 \emph on
-ėšıč
+ëšıč
 \emph default
- [je̞ʃɨtʃ] `to walk'.
- After a consonant, it is realized as [e̞], but palatalizes the previous
- consonant.
+ 
+\family typewriter
+[je̞ʃɨtʃ]
+\family default
+ `to walk'.
+ After a consonant, it is realized as 
+\family typewriter
+[e̞]
+\family default
+, but palatalizes the previous consonant.
  Usually this is straightforward: 
 \emph on
-kėkač
+këkač
 \emph default
- [kʲekatʃ]; however, some sounds change in other ways when they are palatalized:
+ 
+\family typewriter
+[kʲekatʃ]
+\family default
+; however, some sounds change in other ways when they are palatalized:
 \end_layout
 
 \begin_layout Standard
@@ -1929,9 +2019,9 @@ Palatalized
 
 \begin_layout Standard
 The same palatalization rules also apply before the vowel 
-\series bold
+\emph on
 i
-\series default
+\emph default
 .
 
 \series bold
@@ -1939,35 +2029,62 @@ i
 \series default
 For example, the name of the language itself is 
 \emph on
-Mawaci
+Mawacin
 \emph default
- [mawatɕi].
+ 
+\family typewriter
+[mawatɕin]
+\family default
+.
 \end_layout
 
 \begin_layout Standard
 The other tense vowel 
 \emph on
-ȯ
+ö
 \emph default
 's pronunciation is less consistent.
  In those dialects where 
 \emph on
-ė
+ë
 \emph default
- is realized as [je̞] and [ʲe̞], 
+ is realized as 
+\family typewriter
+[je̞]
+\family default
+ and 
+\family typewriter
+[ʲe̞]
+\family default
+, 
 \emph on
-ȯ
+ö
 \emph default
- generally has a pronunciation [wo̞] when not following a consonant.
+ generally has a pronunciation 
+\family typewriter
+[wo̞]
+\family default
+ when not following a consonant.
  When it does follow a consonant, it usually neutralizes with 
 \emph on
 o
 \emph default
- into the same sound of [o̞].
- However, in the standard language a pronunciation of [jo̞]/[ʲo̞] has emerged
- as an artificial analogy to 
+ into the same sound of 
+\family typewriter
+[o̞]
+\family default
+.
+ However, in the standard language a pronunciation of 
+\family typewriter
+[jo̞]
+\family default
+/
+\family typewriter
+[ʲo̞]
+\family default
+ has emerged as an artificial analogy to 
 \emph on
-ė
+ë
 \emph default
  and as a spelling pronunciation to reduce homophony.
  
@@ -2049,6 +2166,8 @@ Southwestern
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 [e̞]
 \end_layout
 
@@ -2058,6 +2177,8 @@ Southwestern
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 [e̞]
 \end_layout
 
@@ -2067,6 +2188,8 @@ Southwestern
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 [ɛ]
 \end_layout
 
@@ -2087,6 +2210,8 @@ Southwestern
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 [o̞]
 \end_layout
 
@@ -2096,6 +2221,8 @@ Southwestern
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 [o̞]
 \end_layout
 
@@ -2105,6 +2232,8 @@ Southwestern
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 [ɔ]
 \end_layout
 
@@ -2116,7 +2245,7 @@ Southwestern
 \begin_inset Text
 
 \begin_layout Plain Layout
-<ė>
+<ë>
 \end_layout
 
 \end_inset
@@ -2125,6 +2254,8 @@ Southwestern
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 [je̞]/[ʲe̞]
 \end_layout
 
@@ -2134,6 +2265,8 @@ Southwestern
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 [je̞]/[ʲe̞]
 \end_layout
 
@@ -2143,6 +2276,8 @@ Southwestern
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 [e]
 \end_layout
 
@@ -2154,7 +2289,7 @@ Southwestern
 \begin_inset Text
 
 \begin_layout Plain Layout
-<ȯ>
+<ö>
 \end_layout
 
 \end_inset
@@ -2163,6 +2298,8 @@ Southwestern
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 [jo̞]/[ʲo̞]
 \end_layout
 
@@ -2172,6 +2309,8 @@ Southwestern
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 [wo̞]/[o̞]
 \end_layout
 
@@ -2181,6 +2320,8 @@ Southwestern
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\family typewriter
 [o]
 \end_layout
 
@@ -2195,7 +2336,11 @@ Southwestern
 \end_layout
 
 \begin_layout Standard
-Note that southern dialects entirely lack palatalization, even before /i/.
+Note that southern dialects entirely lack palatalization, even before 
+\family typewriter
+/i/
+\family default
+.
  Southeastern is not included since it's probably best considered a separate
  language (see TODO).
 \end_layout
@@ -2410,16 +2555,16 @@ Type II nouns have an accusative case that ends in
 Of all the classes, Type II nouns are the easiest to use: the citation form,
  such as 
 \emph on
-cȯkun
+cökun
 \emph default
  `bird', already gives you the stem (in this case 
 \emph on
-cȯk-
+cök-
 \emph default
 ).
  For example, the plural would be 
 \emph on
-cȯkax
+cökax
 \emph default
  `birds'.
  To make things even simpler, all (regular) nouns with citation forms ending
@@ -2609,7 +2754,7 @@ a
 \begin_inset Text
 
 \begin_layout Plain Layout
-ė
+ë
 \end_layout
 
 \end_inset
@@ -2696,7 +2841,7 @@ a
 \begin_inset Text
 
 \begin_layout Plain Layout
-ȯ
+ö
 \end_layout
 
 \end_inset
@@ -2985,7 +3130,7 @@ Nominative
 \begin_inset Text
 
 \begin_layout Plain Layout
-sės
+sës
 \end_layout
 
 \end_inset
@@ -3025,7 +3170,7 @@ Accusative
 \begin_inset Text
 
 \begin_layout Plain Layout
-sėt
+sët
 \bar under
 am
 \end_layout
@@ -3038,7 +3183,7 @@ am
 \begin_layout Plain Layout
 it
 \bar under
-ėm
+ëm
 \end_layout
 
 \end_inset
@@ -3069,7 +3214,7 @@ Dative
 \begin_inset Text
 
 \begin_layout Plain Layout
-sėt
+sët
 \bar under
 um
 \end_layout
@@ -3192,7 +3337,7 @@ Instrumental
 \begin_inset Text
 
 \begin_layout Plain Layout
-sėc
+sëc
 \bar under
 uc
 \end_layout
@@ -3236,7 +3381,7 @@ Locative
 \begin_inset Text
 
 \begin_layout Plain Layout
-sėt
+sët
 \bar under
 ox
 \end_layout
@@ -3280,7 +3425,7 @@ Superessive
 \begin_inset Text
 
 \begin_layout Plain Layout
-sėt
+sët
 \bar under
 arox
 \end_layout
@@ -3293,7 +3438,7 @@ arox
 \begin_layout Plain Layout
 it
 \bar under
-ėrox
+ërox
 \end_layout
 
 \end_inset
@@ -3324,7 +3469,7 @@ Subessive
 \begin_inset Text
 
 \begin_layout Plain Layout
-sėt
+sët
 \bar under
 otox
 \end_layout
@@ -3368,7 +3513,7 @@ Benefactive
 \begin_inset Text
 
 \begin_layout Plain Layout
-sėt
+sët
 \bar under
 ataf
 \end_layout
@@ -3381,7 +3526,7 @@ ataf
 \begin_layout Plain Layout
 it
 \bar under
-ėtaf
+ëtaf
 \end_layout
 
 \end_inset
@@ -3412,7 +3557,7 @@ Comitative
 \begin_inset Text
 
 \begin_layout Plain Layout
-sėt
+sët
 \bar under
 ıc
 \end_layout
@@ -3456,7 +3601,7 @@ Ablative
 \begin_inset Text
 
 \begin_layout Plain Layout
-sėt
+sët
 \bar under
 ac
 \end_layout
@@ -3469,7 +3614,7 @@ ac
 \begin_layout Plain Layout
 it
 \bar under
-ėc
+ëc
 \end_layout
 
 \end_inset
@@ -3500,7 +3645,7 @@ Allative
 \begin_inset Text
 
 \begin_layout Plain Layout
-sėt
+sët
 \bar under
 ic
 \end_layout
@@ -3623,7 +3768,7 @@ Genitive
 \begin_inset Text
 
 \begin_layout Plain Layout
-sėt
+sët
 \bar under
 ol
 \end_layout
@@ -3667,7 +3812,7 @@ Possessive
 \begin_inset Text
 
 \begin_layout Plain Layout
-sėt
+sët
 \bar under
 al
 \end_layout
@@ -3680,7 +3825,7 @@ al
 \begin_layout Plain Layout
 it
 \bar under
-ėl
+ël
 \end_layout
 
 \end_inset
@@ -3711,7 +3856,7 @@ Attributive
 \begin_inset Text
 
 \begin_layout Plain Layout
-sės
+sës
 \bar under
 tar
 \end_layout
@@ -3764,7 +3909,7 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė milti
+Arekisë milti
 \backslash
 v{c}.
 \end_layout
@@ -3806,7 +3951,7 @@ status open
 
 \begin_layout Plain Layout
 
-Lıraxė sakanam kúnda.
+Lıraxë sakanam kúnda.
 \end_layout
 
 \begin_layout Plain Layout
@@ -3846,7 +3991,7 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė sakanam lırakum tótta.
+Arekisë sakanam lırakum tótta.
 \end_layout
 
 \begin_layout Plain Layout
@@ -3897,7 +4042,7 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė sakanam sakanuc kúnda.
+Arekisë sakanam sakanuc kúnda.
 \end_layout
 
 \begin_layout Plain Layout
@@ -3923,7 +4068,7 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė sakanuc miltič.
+Arekisë sakanuc miltič.
 \end_layout
 
 \begin_layout Plain Layout
@@ -3963,7 +4108,7 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė Sakarox sakan kúnda.
+Arekisë Sakarox sakan kúnda.
 \end_layout
 
 \begin_layout Plain Layout
@@ -4002,7 +4147,7 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė sakanarox sakan kúnda.
+Arekisë sakanarox sakan kúnda.
 \end_layout
 
 \begin_layout Plain Layout
@@ -4028,7 +4173,7 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė sakanarox sakan kúnda.
+Arekisë sakanarox sakan kúnda.
 \end_layout
 
 \begin_layout Plain Layout
@@ -4070,7 +4215,7 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė sakanarox sakanotox sakan kúnda.
+Arekisë sakanarox sakanotox sakan kúnda.
 \end_layout
 
 \begin_layout Plain Layout
@@ -4134,7 +4279,7 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė sakanataf ėšetta.
+Arekisë sakanataf ëšetta.
 \end_layout
 
 \begin_layout Plain Layout
@@ -4160,7 +4305,7 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė mitilataf ėšetta.
+Arekisë mitilataf ëšetta.
 \end_layout
 
 \begin_layout Plain Layout
@@ -4200,7 +4345,7 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė Acóngiwıc ėšetta.
+Arekisë Acóngiwıc ëšetta.
 \end_layout
 
 \begin_layout Plain Layout
@@ -4242,7 +4387,7 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė mitilac ėšetta.
+Arekisë mitilac ëšetta.
 \end_layout
 
 \begin_layout Plain Layout
@@ -4268,7 +4413,7 @@ status open
 
 \begin_layout Plain Layout
 
-Pavlinasė mitilac sakanam kúnda.
+Pavlinasë mitilac sakanam kúnda.
 \end_layout
 
 \begin_layout Plain Layout
@@ -4307,7 +4452,7 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė mitilic ėšetta.
+Arekisë mitilic ëšetta.
 \end_layout
 
 \begin_layout Plain Layout
@@ -4473,7 +4618,7 @@ status open
 
 \begin_layout Plain Layout
 
-Miėsol kúscar Arekis
+Miësol kúscar Arekis
 \end_layout
 
 \begin_layout Plain Layout
@@ -4838,12 +4983,12 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė kústasir sakan
+Arekisë kústasir sakan
 \end_layout
 
 \begin_layout Plain Layout
 
-Arekisė eat-CONT-ADN fish
+Arekisë eat-CONT-ADN fish
 \end_layout
 
 \begin_layout Plain Layout
@@ -5064,7 +5209,7 @@ status open
 
 \begin_layout Plain Layout
 
-Arekis ėm kústar a Sakarolaz kınzi
+Arekis ëm kústar a Sakarolaz kınzi
 \end_layout
 
 \begin_layout Plain Layout
@@ -5090,7 +5235,7 @@ status open
 
 \begin_layout Plain Layout
 
-Arekis ėm kústar u Sakaroluz kınzi
+Arekis ëm kústar u Sakaroluz kınzi
 \end_layout
 
 \begin_layout Plain Layout
@@ -5162,7 +5307,7 @@ Mawacin's verb conjugation system is rather divergent.
 \begin_inset Formula 
 \[
 \begin{array}{c}
-\underset{\text{root}}{\text{mawa}}\hspace{1em}\underset{\text{\scshape ipfv}}{\text{-sta}}\hspace{1em}\underset{\text{\scshape prf}}{\text{-nda}}\hspace{1em}\underset{\text{\scshape des}}{\text{-ntȯ}}\hspace{1em}\underset{\text{\scshape inch}}{\text{-ka}}\hspace{1em}\underset{\text{\scshape adv}}{\text{-toc}}\\
+\underset{\text{root}}{\text{mawa}}\hspace{1em}\underset{\text{\scshape ipfv}}{\text{-sta}}\hspace{1em}\underset{\text{\scshape prf}}{\text{-nda}}\hspace{1em}\underset{\text{\scshape des}}{\text{-ntö}}\hspace{1em}\underset{\text{\scshape inch}}{\text{-ka}}\hspace{1em}\underset{\text{\scshape adv}}{\text{-toc}}\\
 \text{`starting to wish to have been talking'}
 \end{array}
 \]
@@ -5229,12 +5374,12 @@ status open
 
 \begin_layout Plain Layout
 
-Minė kam nawoč.
+Minë kam nawoč.
 \end_layout
 
 \begin_layout Plain Layout
 
-min=ė k-am nawo-č
+min=ë k-am nawo-č
 \end_layout
 
 \begin_layout Plain Layout
@@ -5260,12 +5405,12 @@ status open
 
 \begin_layout Plain Layout
 
-minė kam nawokic
+minë kam nawokic
 \end_layout
 
 \begin_layout Plain Layout
 
-minė k-am nawo[-0]-kic
+minë k-am nawo[-0]-kic
 \end_layout
 
 \begin_layout Plain Layout
@@ -5291,12 +5436,12 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė miltič.
+Arekisë miltič.
 \end_layout
 
 \begin_layout Plain Layout
 
-Arekis=ė milti-č
+Arekis=ë milti-č
 \end_layout
 
 \begin_layout Plain Layout
@@ -5344,12 +5489,12 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė cȯkac ėšıš.
+Arekisë cökac ëšıš.
 \end_layout
 
 \begin_layout Plain Layout
 
-Arekis=ė cȯk-ac ėšı-š
+Arekis=ë cök-ac ëšı-š
 \end_layout
 
 \begin_layout Plain Layout
@@ -5390,12 +5535,12 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė Vahasetam nawotta.
+Arekisë Vahasetam nawotta.
 \end_layout
 
 \begin_layout Plain Layout
 
-Arekis=ė Vahaset-am nawo-tta
+Arekis=ë Vahaset-am nawo-tta
 \end_layout
 
 \begin_layout Plain Layout
@@ -5421,12 +5566,12 @@ status open
 
 \begin_layout Plain Layout
 
-Min=ė sakanam luratta.
+Min=ë sakanam luratta.
 \end_layout
 
 \begin_layout Plain Layout
 
-min=ė sakan-am lura-tta
+min=ë sakan-am lura-tta
 \end_layout
 
 \begin_layout Plain Layout
@@ -5452,12 +5597,12 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė miltitta.
+Arekisë miltitta.
 \end_layout
 
 \begin_layout Plain Layout
 
-Arekis=ė milti-tta
+Arekis=ë milti-tta
 \end_layout
 
 \begin_layout Plain Layout
@@ -5488,7 +5633,7 @@ The perfect aspect (note, not the perfective!) denotes that an event has
  other aspects, like the continuative, to form more complex aspects.
  It's marked by the suffix 
 \emph on
--nda
+-nna
 \emph default
 .
 \end_layout
@@ -5499,12 +5644,12 @@ status open
 
 \begin_layout Plain Layout
 
-Minė sakanam kúnda.
+Minë sakanam kúnna.
 \end_layout
 
 \begin_layout Plain Layout
 
-min=ė sakan-am kú-nda
+min=ë sakan-am kú-nna
 \end_layout
 
 \begin_layout Plain Layout
@@ -5554,12 +5699,12 @@ status open
 
 \begin_layout Plain Layout
 
-Minė sakanam luraha.
+Minë sakanam luraha.
 \end_layout
 
 \begin_layout Plain Layout
 
-min=ė sakan-am lura-ha
+min=ë sakan-am lura-ha
 \end_layout
 
 \begin_layout Plain Layout
@@ -5585,12 +5730,12 @@ status open
 
 \begin_layout Plain Layout
 
-Minė sakanam lurahatta.
+Minë sakanam lurahatta.
 \end_layout
 
 \begin_layout Plain Layout
 
-min=ė sakan-am lura-ha-sta
+min=ë sakan-am lura-ha-sta
 \end_layout
 
 \begin_layout Plain Layout
@@ -5632,12 +5777,12 @@ status open
 
 \begin_layout Plain Layout
 
-Minė sakanam lurašti.
+Minë sakanam lurašti.
 \end_layout
 
 \begin_layout Plain Layout
 
-min=ė sakan-am lura-šti
+min=ë sakan-am lura-šti
 \end_layout
 
 \begin_layout Plain Layout
@@ -5689,12 +5834,12 @@ status open
 
 \begin_layout Plain Layout
 
-Sakanaxė miltingocė min sakanam lurahanu.
+Sakanaxë miltingocë min sakanam lurahanu.
 \end_layout
 
 \begin_layout Plain Layout
 
-sakan-ax=ė milti-ngoc=ė min sakan-am lura-ha-nu
+sakan-ax=ë milti-ngoc=ë min sakan-am lura-ha-nu
 \end_layout
 
 \begin_layout Plain Layout
@@ -5734,12 +5879,12 @@ status open
 
 \begin_layout Plain Layout
 
-Minė sakanam lurahatala.
+Minë sakanam lurahatala.
 \end_layout
 
 \begin_layout Plain Layout
 
-min=ė sakan-am lura-ha-tala
+min=ë sakan-am lura-ha-tala
 \end_layout
 
 \begin_layout Plain Layout
@@ -5779,12 +5924,12 @@ status open
 
 \begin_layout Plain Layout
 
-Siléfė arašıtora!
+Siléfë arašıtora!
 \end_layout
 
 \begin_layout Plain Layout
 
-siléf=ė ara-šı-tora
+siléf=ë ara-šı-tora
 \end_layout
 
 \begin_layout Plain Layout
@@ -5868,12 +6013,12 @@ status open
 
 \begin_layout Plain Layout
 
-Siléfė arašıngocė Nérkahaf ALkaPam tattoštindanu.
+Siléfë arašıngocë Nérkahaf ALkaPam tattoštindanu.
 \end_layout
 
 \begin_layout Plain Layout
 
-Siléf=ė ara-šı-ngoc=ė Nérkahaf ALkaP-am tatto-šti-nda-nu
+Siléf=ë ara-šı-ngoc=ë Nérkahaf ALkaP-am tatto-šti-nda-nu
 \end_layout
 
 \begin_layout Plain Layout
@@ -5913,12 +6058,12 @@ status open
 
 \begin_layout Plain Layout
 
-Minė sakanamė kúšıric, kınzėm kúš.
+Minë sakanamë kúšıric, kınzëm kúš.
 \end_layout
 
 \begin_layout Plain Layout
 
-min=ė sakan-am=ė kú-šı-ric kınzi-am kú-š
+min=ë sakan-am=ë kú-šı-ric kınzi-am kú-š
 \end_layout
 
 \begin_layout Plain Layout
@@ -5954,14 +6099,14 @@ status open
 
 \begin_layout Plain Layout
 
-Tannar lıraxė kéricin a palamérazamė mututoc, masapaxol púxacinuc iltarıc
- šımitora ȯ.
+Tannar lıraxë kéricin a palamérazamë mututoc, masapaxol púxacinuc iltarıc
+ šımitora ö.
 \end_layout
 
 \begin_layout Plain Layout
 
-tannar lırax=ė kéri-cin a pala-més-az-am=ė mutu-toc masaf-ax-ol púxa-cin-uc
- iltas-ıc šımi-tora ȯ
+tannar lırax=ë kéri-cin a pala-més-az-am=ë mutu-toc masaf-ax-ol púxa-cin-uc
+ iltas-ıc šımi-tora ö
 \end_layout
 
 \begin_layout Plain Layout
@@ -6017,7 +6162,7 @@ status open
 
 \begin_layout Plain Layout
 
-miltir e Arekisė sakanam kústaros
+miltir e Arekisë sakanam kústaros
 \end_layout
 
 \begin_layout Plain Layout
@@ -6078,7 +6223,7 @@ status open
 
 \begin_layout Plain Layout
 
-miltir e Arekisė ėm kústaran
+miltir e Arekisë ëm kústaran
 \end_layout
 
 \begin_layout Plain Layout
@@ -6128,12 +6273,12 @@ status open
 
 \begin_layout Plain Layout
 
-Lócinė lıraxė lóšıroscač.
+Lócinë lıraxë lóšıroscač.
 \end_layout
 
 \begin_layout Plain Layout
 
-ló-cin=ė lır-ax=ė ló-šı-ros-ca-č.
+ló-cin=ë lır-ax=ë ló-šı-ros-ca-č.
 \end_layout
 
 \begin_layout Plain Layout
@@ -6159,12 +6304,12 @@ status open
 
 \begin_layout Plain Layout
 
-Nawocinė nawošıcindanó.
+Nawocinë nawošıcindanó.
 \end_layout
 
 \begin_layout Plain Layout
 
-nawo-cin=ė nawo-šı-cin-da-nó.
+nawo-cin=ë nawo-šı-cin-da-nó.
 \end_layout
 
 \begin_layout Plain Layout
@@ -6213,12 +6358,12 @@ status open
 
 \begin_layout Plain Layout
 
-Arekisė kústasir a miltizar kınzi
+Arekisë kústasir a miltizar kınzi
 \end_layout
 
 \begin_layout Plain Layout
 
-Arekis=ė kú-sta-sir a milti-<za>r kınzi
+Arekis=ë kú-sta-sir a milti-<za>r kınzi
 \end_layout
 
 \begin_layout Plain Layout
@@ -6268,12 +6413,12 @@ status open
 
 \begin_layout Plain Layout
 
-palar kınziė palač
+palar kınzië palač
 \end_layout
 
 \begin_layout Plain Layout
 
-pala-r kınzi=ė pala-č
+pala-r kınzi=ë pala-č
 \end_layout
 
 \begin_layout Plain Layout
@@ -6291,6 +6436,18 @@ glt `big mushrooms are big'
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+Derivational morphology
+\end_layout
+
+\begin_layout Subsection
+Verb compounds
+\end_layout
+
+\begin_layout Standard
+Two verbs can be compounded to form a new verb.
 \end_layout
 
 \end_body
