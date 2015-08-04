@@ -1,0 +1,23 @@
+define X [ɣ|ŋ];
+define V [a|i|u|e|o|aa|ii|uu];
+
+regex 
+ja -> æ,
+ju -> y,
+je -> ie .o.
+
+aX -> aɪ,
+oX -> oɪ,
+uX -> uɪ .o.
+
+uu -> yy .o.
+
+[ʕa|ahV] -> aa,
+[ʕi|ihV] -> ii,
+[ʕo|ohV] -> oo,
+[ʕu|uhV] -> uu .o.
+
+iXi -> I .o.
+
+aj -> aɛ,
+aa 
