@@ -1,23 +1,75 @@
 define X [ɣ|ŋ];
-define V [a|i|u|e|o|aa|ii|uu];
+define V [a|i|u|e|o|ə|əə|aa|ii|uu];
+define C ? - V;
 
-regex 
-ja -> æ,
-ju -> y,
-je -> ie .o.
+define MDC [p|b|t|d|k|g|m|n|r|l|j|v|s|z|ʃ|ʒ|x|h|ʕ|ʔ|ɣ|ŋ];
 
-aX -> aɪ,
-oX -> oɪ,
-uX -> uɪ .o.
+define MDphon [V|MDC]+ - [?* V V ?*];
+
+define MDtoND ə -> 0 || V C _ [C - j] .o.
+
+b -> v .o.
+
+j a -> æ,
+j u -> y,
+j e -> ie,
+j ə -> iɨ || C _ .o.
+
+ə -> 0 || C _ j V .o.
+
+əə -> ə .o.
+
+a X -> aɪ,
+o X -> oɪ,
+u X -> uɪ .o.
 
 uu -> yy .o.
 
-[ʕa|ahV] -> aa,
-[ʕi|ihV] -> ii,
-[ʕo|ohV] -> oo,
-[ʕu|uhV] -> uu .o.
+aa -> aʊ,
+ii -> ɛɪ,
+[e ʕ]|[e j] -> ɛɨ .o.
 
-iXi -> I .o.
+i X i -> I .o.
 
-aj -> aɛ,
-aa 
+a j -> aɛ,
+o j -> oɛ,
+u j -> uɛ,
+u ʕ -> uɨ,
+j u j -> yɛ,
+j u ʕ -> yɨ,
+j a ʕ -> æʊ,
+j a a -> æy .o.
+
+[ʕa|a h V] -> aa,
+[ʕi|i h V] -> ii,
+[ʕo|o h V] -> oo,
+[ʕu|u h V] -> uu .o.
+
+e -> ɛ,
+ə -> õ;
+
+define NDorth ɛ -> e,
+æ -> ä,
+aɪ -> å,
+ɨ -> õ,
+oɪ -> ø,
+uɪ -> ů,
+I -> iii,
+aɛ -> ae,
+aʊ -> au,
+ɛɪ -> ei,
+ɛɨ -> eõ,
+iɛ -> ie,
+iɨ -> iõ,
+oɛ -> oe,
+uɛ -> ue,
+uɨ -> uõ,
+yɛ -> ye,
+yɨ -> yõ,
+æʊ -> äu,
+æy -> äy,
+ʃ -> š,
+ʒ -> jj;
+
+regex MDphon .o. MDtoND .o. NDorth;
+
